@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import './food.css';
+import './Food.css';
 import PetOwnerNavbar from "../../components/navbar/PetOwnerNavbar";
 import foodData from "../../data/Food.json";
 
