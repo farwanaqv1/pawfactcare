@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import { FaPaw, FaUser, FaArrowLeft } from "react-icons/fa";
-import "./petownerForm.css";
+import "./PetOwnerForm.css";
 
 const PetOwnerForm = () => {
   const location = useLocation();
