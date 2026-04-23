@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
-import "./chatbot.css";
+import "./Chatbot.css";
 
 const staticFAQ = [
   { q: "How often should I feed my cat?", a: "Feed adult cats 2x a day, kittens 3-4x." },
