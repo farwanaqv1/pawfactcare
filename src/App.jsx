@@ -26,7 +26,7 @@ import Contactpag from "./pages/PetOwner/Contactpag";
 
 import Vetform from "./pages/Veterinarian/Vetform";
 import VetProfile from "./pages/Veterinarian/VetProfile";
-import Bookedslots from "./pages/Veterinarian/BookedSlots";
+import Bookedslots from "./pages/Veterinarian/Bookedslots";
 import Availableslots from "./pages/Veterinarian/Availableslots";
 import CaseStudies from "./pages/Veterinarian/CaseStudies";
 
