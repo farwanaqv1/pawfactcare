@@ -24,7 +24,7 @@ import Feedback from "./pages/PetOwner/Feedback";
 import EmergencyHelp from "./pages/PetOwner/EmergencyHelp";
 import Contactpag from "./pages/PetOwner/Contactpag";
 
-import Vetform from "./pages/Veterinarian/VetForm";
+import Vetform from "./pages/Veterinarian/Vetform";
 import VetProfile from "./pages/Veterinarian/VetProfile";
 import Bookedslots from "./pages/Veterinarian/BookedSlots";
 import Availableslots from "./pages/Veterinarian/Availableslots";
