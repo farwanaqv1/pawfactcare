@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
-import "./PetCard.css";
+import "./Petcard.css";
 
 const PetCard = ({ pet, direction = "up" }) => {
   const [showDetails, setShowDetails] = useState(false);
