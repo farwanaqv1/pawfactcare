@@ -1,0 +1,248 @@
+{
+  "petInfo": {
+    "ownerName": "Sarah Johnson",
+    "pet": {
+      "name": "Bella",
+      "species": "Dog",
+      "breed": "Golden Retriever",
+      "age": 3,
+      "vaccinations": [
+        {
+          "name": "Rabies",
+          "date": "2023-05-15",
+          "nextDue": "2024-05-15"
+        },
+        {
+          "name": "DHPP",
+          "date": "2023-05-15",
+          "nextDue": "2024-05-15"
+        },
+        {
+          "name": "Bordetella",
+          "date": "2023-11-20",
+          "nextDue": "2024-05-20"
+        }
+      ]
+    }
+  },
+"feedingGuide": {
+  "charts": [
+    {
+      "type": "Puppies",
+      "headers": ["Age", "Food Type", "Quantity"],
+      "rows": [
+        ["0-2 months", "Milk", "50ml"],
+        ["2-4 months", "Puppy Kibble", "100g"]
+      ]
+    },
+    {
+      "type": "Adult Dogs",
+      "headers": ["Age", "Food Type", "Quantity"],
+      "rows": [
+        ["1-3 years", "Adult Kibble", "200g"],
+        ["2-4 months", "Cat Kibble", "100g"]
+      ]
+    },
+    {
+      "type": "Cats",
+      "headers": ["Age", "Food Type", "Quantity"],
+      "rows": [
+        ["0-2 months", "Milk", "50ml"],
+        ["2-4 months", "Cat Kibble", "100g"]
+       
+      ]
+    },
+    {
+      "type": "Rabbit",
+      "headers": ["Age", "Food Type", "Quantity"],
+      "rows": [
+        ["0-2 months", "Milk", "50ml"],
+        ["2-4 months", "Rabbit", "100g"]
+       
+      ]
+    }
+  ]
+},
+ "groomingVideos": [
+   {
+    "title": "sbcd",
+    "thumbnail": "/vedioimg1.webp",
+    "videoUrl": "19153380-hd_1920_1080_60fps.mp4",
+    "duration": "12:30",
+    "views": "15K",
+    "author": "PetCare Pro",
+    "description": "Learn the basics of dog trimming in this step-by-step video, including brushing, bathing, trimming, and keeping your dog’s coat healthy, shiny, and well-maintained."
+  }
+,
+   {
+  "title": "Cat Bathing Tips",
+  "thumbnail": "/vedioimg2.jpg",
+  "videoUrl": "6131037-uhd_3840_2160_25fps.mp4",
+  "duration": "8:45",
+  "views": "10K",
+  "author": "PetCare Pro",
+  "description": "Step-by-step tips for bathing your cat safely, including how to keep them calm and comfortable during the process."
+}
+
+
+    ,
+   {
+  "title": "Brushing Tips",
+  "thumbnail": "/vedioimg3.jpg",
+  "videoUrl": "9986244-uhd_4096_2160_25fps.mp4",
+  "duration": "6:15",
+  "views": "7.5K",
+  "author": "PetCare Pro",
+  "description": "Keep your puppy’s coat soft, shiny, and healthy with proper hair-care and brushing techniques. Learn how to brush gently, remove tangles, reduce shedding, and maintain a clean."
+}
+
+  ],
+
+
+ 
+  "trainingTips": [
+    {
+      "title": "Basic Obedience Training",
+      "difficulty": "Beginner",
+      "timeRequired": "2-3 weeks",
+      "steps": [
+        "Start with simple commands like 'sit' and 'stay'",
+        "Use positive reinforcement with treats and praise",
+        "Practice in short sessions (5-10 minutes) multiple times daily",
+        "Gradually increase distractions as your pet improves",
+        "Be consistent with commands and rewards"
+      ],
+      "tips": [
+        "Train before meals when your dog is motivated by food",
+        "Keep training sessions fun and end on a positive note",
+        "Use a clicker for more precise timing of rewards"
+      ]
+    },
+    {
+      "title": "Leash Training",
+      "difficulty": "Beginner to Intermediate",
+      "timeRequired": "2-4 weeks",
+      "steps": [
+        "Introduce the leash indoors without tension",
+        "Practice walking in a quiet, familiar environment",
+        "Stop moving when your dog pulls and resume when leash is loose",
+        "Reward your dog for walking beside you",
+        "Gradually introduce more distracting environments"
+      ],
+      "tips": [
+        "Use a front-clip harness to reduce pulling",
+        "Be patient - leash skills take time to develop",
+        "Avoid retractable leashes for training"
+      ]
+    },
+    {
+      "title": "Potty Training",
+      "difficulty": "Beginner",
+      "timeRequired": "2-6 weeks",
+      "steps": [
+        "Establish a consistent feeding schedule",
+        "Take your puppy out frequently (after meals, naps, and play)",
+        "Choose a designated potty area and use a consistent command",
+        "Praise and reward immediately after elimination",
+        "Supervise closely indoors and use a crate when unsupervised"
+      ],
+      "tips": [
+        "Clean accidents thoroughly with enzymatic cleaner",
+        "Watch for signs like sniffing or circling",
+        "Be patient and avoid punishment for accidents"
+      ]
+    },
+    {
+      "title": "Crate Training",
+      "difficulty": "Beginner",
+      "timeRequired": "1-3 weeks",
+      "steps": [
+        "Introduce the crate gradually with the door open",
+        "Feed meals near and eventually inside the crate",
+        "Use treats and praise to create positive associations",
+        "Practice short periods with the door closed while you're home",
+        "Gradually increase crate time when you leave the house"
+      ],
+      "tips": [
+        "Make the crate comfortable with bedding and toys",
+        "Never use the crate for punishment",
+        "Ensure the crate is appropriately sized"
+      ]
+    },
+    {
+      "title": "Socialization",
+      "difficulty": "Intermediate",
+      "timeRequired": "Ongoing",
+      "steps": [
+        "Expose your puppy to various people, places, and sounds",
+        "Keep experiences positive with treats and praise",
+        "Introduce new things gradually without overwhelming",
+        "Arrange playdates with vaccinated, friendly dogs",
+        "Enroll in puppy socialization classes"
+      ],
+      "tips": [
+        "The critical socialization period is 3-16 weeks",
+        "Prioritize quality over quantity of experiences",
+        "Watch for signs of fear and don't force interactions"
+      ]
+    }
+  ],
+ 
+
+  "healthTips": [
+    {
+      "title": "Oral Care",
+      "type": "video",
+      "videoId": "6235186-uhd_3840_2160_25fps.mp4",
+      "text": "Learn how to brush your dog's teeth properly, prevent tartar build-up, and maintain healthy gums for a happy and healthy pet."
+    },
+    {
+      "title": "Weight",
+      "type": "video",
+      "videoId": "3042473-uhd_3840_2160_30fps.mp4",
+      "text": "Understand the importance of maintaining your pet's ideal weight, recognize signs of obesity, and learn tips for a balanced diet and regular exercise."
+    },
+    {
+      "title": "Common Conditions",
+      "type": "video",
+      "videoId": "3009091-uhd_3840_2160_30fps.mp4",
+      "text": "Get to know the most common health conditions in pets, early warning signs to watch for, and steps to ensure timely veterinary care."
+    }
+  ],
+
+
+  
+  
+   "trainingTips": [
+    {
+      "title": "Basic Commands",
+      "text": "Teach your dog basic commands like sit, stay, and come. Start with short, fun sessions of 5–10 minutes, use plenty of treats and praise, and always reward immediately. These commands form the foundation for good behavior and help build a strong bond between you and your pet.",
+      "audioSrc": "WhatsApp Audio 2025-09-14 at 11.24.43 AM.mpeg"
+    },
+    {
+      "title": "Leash Training",
+      "text": "Guide your puppy to walk calmly on a leash without pulling. Begin in a quiet, distraction-free environment and reward your dog when the leash stays loose. Gradually introduce busier areas. Patience and consistency are key to teaching calm walking habits.",
+      "audioSrc": "WhatsApp Audio 2025-09-14 at 11.32.47 AM.mpeg"
+    },
+    {
+      "title": "Down Command",
+      "text": "Train your dog to lie down on command, which is useful for calm behavior in public or at home. Use a treat to lure your dog into a lying position, then say 'down' and reward. Practice daily and increase the duration over time so your pet learns to relax.",
+      "audioSrc": "WhatsApp Audio 2025-09-14 at 11.32.47 AM (1).mpeg"
+    },
+    {
+      "title": "Recall (“Come”)",
+      "text": "Teach your dog to return to you when called – this is crucial for safety. Start indoors or in a fenced area, say 'come' in an excited tone, and reward your dog generously. Gradually add distractions and distance as your pet improves reliability.",
+      "audioSrc": "WhatsApp Audio 2025-09-14 at 11.39.24 AM.mpeg"
+    },
+    {
+      "title": "Leave It / Drop It",
+      "text": "Train your pet to leave something alone or drop an item from its mouth. Begin with a low-value object, say 'leave it,' and reward when your dog ignores it. For 'drop it,' exchange the item with a treat. This command is essential for preventing accidents or ingestion of harmful items.",
+      "audioSrc": "WhatsApp Audio 2025-09-14 at 11.40.42 AM.mpeg"
+    },
+    {
+      "title": "Watch Me / Focus",
+      "text": "Get your dog’s attention so it looks at you on cue, which improves focus during training or distractions. Hold a treat near your face, say 'watch me,' and reward when your dog makes eye contact. Practice often to strengthen your dog’s attention span.",
+      "audioSrc": "WhatsApp Audio 2025-09-14 at 11.42.04 AM.mpeg"
+    }
+  ]
+}

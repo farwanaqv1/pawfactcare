@@ -1,0 +1,175 @@
+
+.shelter-navbar {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  padding: 30px 30px;
+  padding-left: 230px; 
+  background: #ffffff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  z-index: 1000;
+  font-family: 'Poppins', sans-serif;
+  transition: all 0.3s ease;
+  min-height: 100px;
+  box-shadow: 0 4px 12px rgba(255, 72, 128, 0.35);
+}
+
+
+.shelter-logo {
+  position: absolute;
+  left: 10px;
+}
+
+.shelter-logo img.shelter-logo-img {
+ height: 100px;
+  width:150%;
+ margin-top:-44px;
+  margin-left:-10px;
+  transition: all 0.3s ease;
+}
+
+
+.shelter-nav-links {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  margin-left:-20%;
+}
+
+.shelter-nav-links a {
+  text-decoration: none;
+  color: #f67280;
+  font-weight: bold;
+  padding: 10px 14px;
+  border-radius: 6px;
+  margin: 0 2px;
+  transition: background 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+
+.shelter-nav-links a:hover {
+  background: #f67280;
+  color: #fff !important;
+  box-shadow: 0 0 8px rgba(246, 114, 128, 0.5);
+}
+
+
+.shelter-nav-links a.active {
+  background-color: #f67280;
+  color: #fff !important;
+  font-weight: bold;
+  box-shadow: 0 0 8px rgba(246, 114, 128, 0.6);
+}
+
+
+.shelter-wave {
+  position: absolute;
+  bottom: -15px;
+  left: 0;
+  width: 100%;
+  height: 20px;
+  background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='200' height='40' viewBox='0 0 100 40' preserveAspectRatio='none'><path d='M0,20 Q25,40 50,20 T100,20 V40 H0 Z' fill='%23ffffff'/></svg>");
+  background-repeat: repeat-x;
+  background-size: contain;
+  z-index: 5;
+  transform: rotate(180deg);
+  display: block; 
+}
+
+
+.shelter-hamburger {
+  display: none;
+  font-size: 32px;
+  background: none;
+  border: none;
+  color: #f67280;
+  cursor: pointer;
+  position: absolute;
+  right: 20px;
+  top: 35px;
+}
+
+
+@media (max-width: 768px) {
+  .shelter-navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px 20px;
+    padding-left: 20px; 
+    position: relative;
+  }
+
+  
+  .shelter-logo {
+    position: relative; 
+    margin-bottom: 100px;
+  }
+
+  .shelter-logo img.shelter-logo-img {
+     height: 100px;
+  width:130%;
+  position:absolute;
+  top:50px !important;
+  margin-left:-10px;
+  transition: all 0.3s ease;
+  }
+
+
+
+  .shelter-hamburger {
+    display: block;
+    right: 20px;
+    top: 25px;
+    z-index: 1100;
+  }
+
+  .shelter-nav-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background: #fff;
+    margin-top: 10px;
+    border-top: 1px solid #eee;
+    padding: 10px 0;
+  }
+
+  .shelter-nav-links.show {
+        display: flex;
+        position: absolute;
+        top: 90%;
+        right: 0px;
+        width: 100%;
+    }
+  .shelter-nav-links li {
+    width: 100%;
+    padding: 10px 20px;
+  }
+
+  .shelter-nav-links a:hover {
+    background: #f67280;
+    color: #fff !important;
+    box-shadow: none;
+  }
+
+  .shelter-wave {
+    display: block;
+    position: relative;
+    margin-top: 10px;
+  }
+}
+@media (max-width: 991px) {
+ .shelter-logo img.shelter-logo-img {
+  height: 80px;
+  width: 150px;
+  position:absolute;
+  top:20px;
+  transition: all 0.3s ease;
+}
+}
+

@@ -1,0 +1,46 @@
+.ticker {
+  overflow: hidden;
+  background: linear-gradient(90deg,   #f67280,   #bf3543);
+  color: #fff;
+  font-weight: 600;
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+  border-top: 2px solid #fff5d7;
+  border-bottom: 2px solid #fff5d7;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+.track {
+  display: inline-block;
+  white-space: nowrap;
+  padding: 0.6rem 0;
+
+  min-width: 200%;
+  animation: slide 30s linear infinite;
+}
+
+.item {
+  display: inline-block;
+  margin-right: 4rem; 
+  letter-spacing: 0.5px;
+  text-transform: capitalize;
+}
+
+
+.ticker:hover .track {
+  animation-play-state: paused;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}

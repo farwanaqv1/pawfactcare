@@ -1,0 +1,8 @@
+.wrap { display:flex; gap:1rem; align-items:center; justify-content:center;flex-direction: column; flex-wrap:wrap; padding:.5rem 0; }
+.time { font-weight:700;
+font-size: 100px; 
+color: white;}
+.geo { opacity:.9;
+font-size: 50px; 
+color: white; }
+.geoMuted { opacity:.6; }

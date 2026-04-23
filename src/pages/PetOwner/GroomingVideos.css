@@ -1,0 +1,51 @@
+
+.groomingvideos-hero-section {
+  height: 70vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+   background-image: url("/banimg1.webp");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transform: scale(1);
+  animation: bgZoom 30s ease-in-out infinite alternate;
+}
+
+.groomingvideos-hero-section::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+ 
+}
+
+@keyframes bgZoom {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.2); }
+  100% { transform: scale(1); }
+}
+
+.groomingvideos-hero-section::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.3);
+  z-index: 0;
+  
+ 
+}
+
+.groomingvideos-hero-section .container { 
+  position: relative; 
+  z-index: 1; 
+}
+
+.groomingvideos-hero-heading {
+  font-size: 4rem;
+  font-weight: 700;
+  color: #fff;
+  text-shadow: 0 0 15px rgba(255,255,255,0.8);
+  text-align: center;
+}  

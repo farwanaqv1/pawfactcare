@@ -1,0 +1,296 @@
+:root {
+  --pink: #ff4880;
+  --green: #8fc424;
+  --white: #f9faf9;
+  --dark: #1b1b2f;
+  --gray: #999;
+}
+
+.vet-wrapper {
+  display: flex;
+  min-height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f4f4f4;
+  color: var(--dark);
+}
+
+/* ✅ Back button */
+/* ✅ Back button without background */
+.vet-back-btn {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background: transparent;
+  /* background hata diya */
+  color: var(--pink);
+  /* default pink */
+  border: none;
+  /* border bhi remove */
+  padding: 6px 10px;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: 600;
+  z-index: 10;
+  transition: color 0.3s ease;
+}
+
+.vet-back-btn:hover {
+  color: var(--green);
+  /* hover pe green ho jayega */
+}
+
+
+.vet-left {
+  flex: 1;
+  background: url('/formimg2.jpg') center/cover no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 40px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: var(--white);
+  min-height: 80vh;
+}
+
+.vet-left::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 0;
+}
+
+.vet-left * {
+  position: relative;
+  z-index: 1;
+}
+
+.vet-left h5 {
+  color: var(--pink);
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.vet-left h2 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.vet-left p {
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.vet-left ul {
+  list-style: none;
+  padding: 0;
+}
+
+.vet-left ul li {
+  position: relative;
+  padding-left: 18px;
+  margin-bottom: 10px;
+}
+
+.vet-left ul li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: var(--green);
+  font-size: 18px;
+}
+
+.vet-icon {
+  font-size: 24px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.vet-right {
+  flex: 1;
+  position: relative;
+  padding: 40px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: url('/bgimg1.jpg') center/cover no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  min-height: 80vh;
+}
+
+.vet-right::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(255, 255, 255, 0.85);
+  z-index: 0;
+  transition: 0.3s;
+}
+
+.vet-right * {
+  position: relative;
+  z-index: 1;
+}
+
+.vet-heading {
+  color: var(--pink);
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-bottom: 6px;
+}
+
+.vet-title {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.vet-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.vet-row {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.vet-form input,
+.vet-form select,
+.vet-form textarea {
+  flex: 1;
+  padding: 10px 12px;
+  border: 2px solid var(--pink);
+  border-radius: 6px;
+  font-size: 14px;
+  background: rgba(255, 255, 255, 0.95);
+  transition: border 0.3s;
+}
+
+.vet-form input:focus,
+.vet-form select:focus,
+.vet-form textarea:focus {
+  border-color: var(--green);
+  outline: none;
+}
+
+.vet-file-label {
+  display: inline-block;
+  padding: 6px 10px;
+  background: var(--pink);
+  color: #fff;
+  cursor: pointer;
+  font-weight: 600;
+  margin-bottom: 8px;
+  border-radius: 4px;
+  transition: 0.3s;
+}
+
+.vet-form input[type="file"] {
+  display: none;
+}
+
+.vet-submit {
+  padding: 10px 20px;
+  font-size: 14px;
+  width: 200px;
+  background: var(--pink);
+  color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+  border: none;
+  border-radius: 15px;
+  transition: background 0.3s ease;
+}
+
+.vet-submit:hover {
+  background: var(--green);
+}
+
+.vet-form textarea {
+  resize: none;
+  max-height: 80px;
+}
+
+.vet-form input.error,
+.vet-form select.error,
+.vet-file-label.error {
+  border: 2px solid red !important;
+}
+
+.vet-modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.vet-modal-content {
+  background: var(--white);
+  padding: 25px 30px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.vet-modal-close {
+  margin-top: 15px;
+  padding: 8px 16px;
+  background: var(--pink);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.vet-modal-close:hover {
+  background: var(--green);
+}
+
+.vet-animate {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.6s ease;
+}
+
+.vet-animate.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (max-width: 1100px) {
+  .vet-wrapper {
+    flex-direction: column;
+  }
+
+  .vet-row {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 600px) {
+  .vet-right {
+    padding: 25px 15px;
+  }
+
+  .vet-left {
+    padding: 30px 15px;
+  }
+
+  .vet-title {
+    font-size: 24px;
+  }
+}

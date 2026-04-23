@@ -1,0 +1,146 @@
+[
+  {
+    "id": 31,
+    "category": "Bedding and Apparel",
+    "name": "Cozy Pet Bed",
+    "bgImage": "/bed1.webp",
+    "description": "Soft, comfortable bed for pets.",
+    "price": "$35",
+    "petType": "dog"
+  },
+  {
+    "id": 32,
+    "category": "Bedding and Apparel",
+    "name": "Winter Jacket",
+    "bgImage": "/bed2.webp",
+    "description": "Keeps your dog warm in cold weather.",
+    "price": "$28",
+    "petType": "dog"
+  },
+  {
+    "id": 33,
+    "category": "Bedding and Apparel",
+    "name": "Orthopedic Bed",
+    "bgImage": "/bed3.jpg",
+    "description": "Supports joints for older pets.",
+    "price": "$45",
+    "petType": "dog"
+  },
+  {
+    "id": 34,
+    "category": "Bedding and Apparel",
+    "name": "Raincoat",
+    "bgImage": "/bed4.jpeg",
+    "description": "Waterproof protection for rainy days.",
+    "price": "$25",
+    "petType": "dog"
+  },
+  {
+    "id": 35,
+    "category": "Bedding and Apparel",
+    "name": "Window Perch",
+    "bgImage": "/bed5.jpg",
+    "description": "Gives cats a view of outdoors.",
+    "price": "$32",
+    "petType": "cat"
+  },
+  {
+    "id": 36,
+    "category": "Bedding and Apparel",
+    "name": "Hooded Sweater",
+    "bgImage": "/bed6.avif",
+    "description": "Keeps your pet stylish and warm.",
+    "price": "$22",
+    "petType": "dog"
+  },
+  {
+    "id": 37,
+    "category": "Bedding and Apparel",
+    "name": "Cooling Mat",
+    "bgImage": "/bed7.jpg",
+    "description": "Helps pets stay cool in hot weather.",
+    "price": "$29",
+    "petType": "dog"
+  },
+  {
+    "id": 38,
+    "category": "Bedding and Apparel",
+    "name": "Bandana",
+    "bgImage": "/bed8.webp",
+    "description": "Adds style to your pet's look.",
+    "price": "$8",
+    "petType": "dog"
+  },
+  {
+    "id": 39,
+    "category": "Bedding and Apparel",
+    "name": "Cat Tent Bed",
+    "bgImage": "/bed9.jfif",
+    "description": "Enclosed tent-style bed for cats to feel secure.",
+    "price": "$27",
+    "petType": "cat"
+  },
+  {
+    "id": 40,
+    "category": "Bedding and Apparel",
+    "name": "Reflective Vest",
+    "bgImage": "/bed10.jfif",
+    "description": "Keeps dogs visible during nighttime walks.",
+    "price": "$20",
+    "petType": "dog"
+  },
+  {
+    "id": 41,
+    "category": "Bedding and Apparel",
+    "name": "Cat Blanket",
+    "bgImage": "/bed11.jfif",
+    "description": "Soft fleece blanket to keep cats cozy.",
+    "price": "$18",
+    "petType": "cat"
+  },
+  {
+    "id": 42,
+    "category": "Bedding and Apparel",
+    "name": "Dog Boots",
+    "bgImage": "/bed12.jfif",
+    "description": "Protects paws from hot pavement or snow.",
+    "price": "$26",
+    "petType": "dog"
+  },
+  {
+    "id": 43,
+    "category": "Bedding and Apparel",
+    "name": "Cat Cave",
+    "bgImage": "/bed13.jfif",
+    "description": "Wool felt cave bed that cats love to hide in.",
+    "price": "$34",
+    "petType": "cat"
+  },
+  {
+    "id": 44,
+    "category": "Bedding and Apparel",
+    "name": "Dog Pajamas",
+    "bgImage": "/bed14.jfif",
+    "description": "Soft pajamas for dogs to keep them warm indoors.",
+    "price": "$24",
+    "petType": "dog"
+  },
+  {
+    "id": 45,
+    "category": "Bedding and Apparel",
+    "name": "Cat Hammock",
+    "bgImage": "/bed15.jfif",
+    "description": "Hammock that attaches under chairs for lounging cats.",
+    "price": "$21",
+    "petType": "cat"
+  },
+  {
+    "id": 46,
+    "category": "Bedding and Apparel",
+    "name": "Luxury Dog Bed",
+    "bgImage": "/bed16.jfif",
+    "description": "Plush, oversized bed for maximum comfort.",
+    "price": "$55",
+    "petType": "dog"
+  }
+]

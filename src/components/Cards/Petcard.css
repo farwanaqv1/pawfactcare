@@ -1,0 +1,120 @@
+.pet-card {
+  position: relative;
+  width: 100%;
+  max-width: 260px;
+  height: 360px;
+  margin: 10px;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15);
+  transition: transform 0.8s ease, opacity 0.8s ease;
+  opacity: 0;
+}
+
+.pet-card.dir-up { transform: translateY(40px); }
+.pet-card.dir-left { transform: translateX(-40px); }
+.pet-card.dir-right { transform: translateX(40px); }
+.pet-card.visible {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+.pet-card:hover {
+  transform: translateY(-5px) scale(1.02);
+  box-shadow: 0 0 20px black;
+}
+
+.pet-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.5s ease;
+}
+.pet-image.zoom { transform: scale(1.1); }
+
+.pet-details {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 72, 128, 0.85);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  text-align: center;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  pointer-events: none;
+}
+.pet-details.show {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+
+.pet-details .pet-name {
+  font-size: 22px;
+  margin-bottom: 8px;
+  font-weight: 700;
+}
+.pet-details p { margin: 3px 0; }
+.pet-details .desc {
+  font-size: 14px;
+  margin-top: 6px;
+  line-height: 1.3;
+}
+
+.pet-card::after {
+  content: "";
+  position: absolute;
+  bottom: -40px;
+  right: -40px;
+  width: 120px;
+  height: 120px;
+  background: white;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+.pet-action-btn {
+  position: absolute;
+  bottom: 6px;
+  right: 6px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #ff4880;
+  color: white;
+  border: none;
+  cursor: pointer;
+  z-index: 3;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+.pet-action-btn svg {
+  fill: white;
+  transition: fill 0.3s ease;
+}
+.pet-action-btn:hover {
+  background: #8fc424;
+  transform: scale(1.1);
+}
+.pet-action-btn:hover svg { fill: #fff; }
+
+@media (max-width: 768px) {
+  .pet-card { max-width: 180px; height: 260px; }
+  .pet-action-btn { width: 50px; height: 50px; }
+}
+@media (max-width: 480px) {
+  .pet-card { max-width: 150px; height: 220px; }
+  .pet-action-btn { width: 45px; height: 45px; }
+}

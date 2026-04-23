@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "name": "Buddy",
+    "age": "2 years",
+    "breed": "Golden Retriever",
+    "type": "Dog",
+    "description": "Friendly and playful dog.\nLoves kids and outdoor fun.",
+    "image": "/dog1.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Whiskers",
+    "age": "2 years",
+    "breed": "Persian",
+    "type": "Cat",
+    "description": "Calm and cuddly cat.\nLoves gentle petting and naps.",
+    "image": "/cat1.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Fluffy",
+    "age": "1 year",
+    "breed": "Angora",
+    "type": "Rabbit",
+    "description": "Soft and gentle rabbit.\nEnjoys hopping and cuddles.",
+    "image": "/rab1.webp"
+  },
+  {
+    "id": 17,
+    "name": "Tweety",
+    "age": "1 year",
+    "breed": "Canary",
+    "type": "Bird",
+    "description": "Cheerful and sings beautifully.\nEnjoys flying around.",
+    "image": "/bird1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Luna",
+    "age": "1 year",
+    "breed": "Siberian Husky",
+    "type": "Dog",
+    "description": "Energetic and adventurous.\nEnjoys long walks and games.",
+    "image": "/dog2.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Mittens",
+    "age": "1.5 years",
+    "breed": "Siamese",
+    "type": "Cat",
+    "description": "Playful and curious.\nEnjoys toys and attention.",
+    "image": "/cat2.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Snowball",
+    "age": "2 years",
+    "breed": "Dutch Rabbit",
+    "type": "Rabbit",
+    "description": "Active and playful.\nLoves exploring and treats.",
+    "image": "/rab2.jpg"
+  },
+  {
+    "id": 18,
+    "name": "Kiwi",
+    "age": "2 years",
+    "breed": "Parakeet",
+    "type": "Bird",
+    "description": "Playful and social.\nLoves interacting with humans.",
+    "image": "/bird2.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Charlie",
+    "age": "3 years",
+    "breed": "Beagle",
+    "type": "Dog",
+    "description": "Curious and playful.\nLoves exploring new places.",
+    "image": "/dog3.avif"
+  },
+  {
+    "id": 8,
+    "name": "Shadow",
+    "age": "3 years",
+    "breed": "Maine Coon",
+    "type": "Cat",
+    "description": "Friendly and social.\nLoves interaction with humans.",
+    "image": "/cat3.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Coco",
+    "age": "1.5 years",
+    "breed": "Lionhead Rabbit",
+    "type": "Rabbit",
+    "description": "Sweet and playful.\nFriendly and energetic.",
+    "image": "/rab3.jpg"
+  },
+  {
+    "id": 19,
+    "name": "Sunny",
+    "age": "1.5 years",
+    "breed": "Cockatiel",
+    "type": "Bird",
+    "description": "Friendly and affectionate.\nEnjoys perching and whistles.",
+    "image": "/bird4.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Max",
+    "age": "4 years",
+    "breed": "German Shepherd",
+    "type": "Dog",
+    "description": "Loyal and protective.\nPerfect companion for families.",
+    "image": "/dog4.webp"
+  },
+  {
+    "id": 9,
+    "name": "Lily",
+    "age": "1 year",
+    "breed": "British Shorthair",
+    "type": "Cat",
+    "description": "Gentle and calm.\nGreat for families and kids.",
+    "image": "/cat4.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Daisy",
+    "age": "2 years",
+    "breed": "Bulldog",
+    "type": "Dog",
+    "description": "Calm and affectionate.\nEnjoys lounging and cuddles.",
+    "image": "/dog5.jpg"
+  },
+  {
+    "id": 20,
+    "name": "Sky",
+    "age": "2 years",
+    "breed": "Budgerigar",
+    "type": "Bird",
+    "description": "Energetic and colorful.\nLoves playing and chirping.",
+    "image": "/bird3.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Goldie",
+    "age": "1 year",
+    "breed": "Goldfish",
+    "type": "Fish",
+    "description": "Swims gracefully.\nBright and colorful fins.",
+    "image": "/fish1.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Bubbles",
+    "age": "1.5 years",
+    "breed": "Betta",
+    "type": "Fish",
+    "description": "Colorful and lively fish.\nEnjoys swimming around.",
+    "image": "/fish2.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Finny",
+    "age": "2 years",
+    "breed": "Guppy",
+    "type": "Fish",
+    "description": "Small and playful.\nBright patterns and active.",
+    "image": "/fish3.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Splash",
+    "age": "1 year",
+    "breed": "Molly",
+    "type": "Fish",
+    "description": "Energetic and bright.\nLoves exploring the tank.",
+    "image": "/fish4.jpg"
+  }
+]

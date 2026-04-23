@@ -1,0 +1,402 @@
+[
+  {
+    "id": 1,
+    "category": "Dog/Cat Food",
+    "name": "Premium Dog Kibble",
+    "bgImage": "/meal1.png",
+    "description": "High protein kibble for active dogs.",
+    "price": "$20"
+  },
+  {
+    "id": 2,
+    "category": "Dog/Cat Food",
+    "name": "Grain-Free Cat Food",
+    "bgImage": "/meal2.jpeg",
+    "description": "Natural ingredients for feline health.",
+    "price": "$18"
+  },
+  {
+    "id": 3,
+    "category": "Dog/Cat Food",
+    "name": "Salmon Recipe Dog Food",
+    "bgImage": "/meal3.jpg",
+    "description": "Rich in omega fatty acids for healthy coat.",
+    "price": "$24"
+  },
+  {
+    "id": 4,
+    "category": "Dog/Cat Food",
+    "name": "Kitten Formula Food",
+    "bgImage": "/meal4.webp",
+    "description": "Specially formulated for growing kittens.",
+    "price": "$22"
+  },
+  {
+    "id": 5,
+    "category": "Dog/Cat Food",
+    "name": "Weight Management Dog Food",
+    "bgImage": "/meal5.jpeg",
+    "description": "Helps maintain healthy weight with reduced calories.",
+    "price": "$26"
+  },
+  {
+    "id": 6,
+    "category": "Dog/Cat Food",
+    "name": "Senior Cat Formula",
+    "bgImage": "/meal6.webp",
+    "description": "Supports health of cats ages 7+.",
+    "price": "$19"
+  },
+  {
+    "id": 7,
+    "category": "Dog/Cat Food",
+    "name": "Hypoallergenic Dog Food",
+    "bgImage": "/meal7.webp",
+    "description": "For dogs with food sensitivities.",
+    "price": "$28"
+  },
+  {
+    "id": 8,
+    "category": "Dog/Cat Food",
+    "name": "Indoor Cat Formula",
+    "bgImage": "/meal8.png",
+    "description": "Helps reduce hairballs and control weight.",
+    "price": "$21"
+  },
+  {
+    "id": 9,
+    "category": "Dog/Cat Food",
+    "name": "Puppy Growth Formula",
+    "bgImage": "/meal9.webp",
+    "description": "Supports healthy development of puppies.",
+    "price": "$25"
+  },
+  {
+    "id": 10,
+    "category": "Dog/Cat Food",
+    "name": "Dental Health Cat Food",
+    "bgImage": "/meal10.avif",
+    "description": "Helps reduce tartar and clean teeth.",
+    "price": "$23"
+  },
+  {
+    "id": 11,
+    "category": "Toys",
+    "name": "Chew Ball",
+    "bgImage": "https://images.unsplash.com/photo-1591946653350-5932e657c71b?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60",
+    "description": "Durable rubber chew ball for dogs.",
+    "price": "$10"
+  },
+  {
+    "id": 12,
+    "category": "Toys",
+    "name": "Feather Teaser",
+    "bgImage": "https://images.unsplash.com/photo-1472491235688-bdc81a7d63fa?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60",
+    "description": "Interactive toy for cats.",
+    "price": "$8"
+  },
+  {
+    "id": 13,
+    "category": "Toys",
+    "name": "Squeaky Plush Toy",
+    "bgImage": "https://images.unsplash.com/photo-1591946624646-1a58b6c7166f?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60",
+    "description": "Soft plush toy with squeaker for dogs.",
+    "price": "$12"
+  },
+  {
+    "id": 14,
+    "category": "Toys",
+    "name": "Laser Pointer",
+    "bgImage": "https://images.unsplash.com/photo-1591946649942-29ef4475ff4f?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60",
+    "description": "Endless fun for cats with laser pointer.",
+    "price": "$7"
+  },
+  {
+    "id": 15,
+    "category": "Toys",
+    "name": "Tug Rope",
+    "bgImage": "https://images.unsplash.com/photo-1591946653925-ee87ab4b1d4d?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60",
+    "description": "Durable cotton rope for tug games.",
+    "price": "$9"
+  },
+  {
+    "id": 16,
+    "category": "Toys",
+    "name": "Catnip Mice",
+    "bgImage": "https://images.unsplash.com/photo-1591946649684-3c5f32c8e6c5?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60",
+    "description": "Set of 3 catnip-infused toy mice.",
+    "price": "$6"
+  },
+  {
+    "id": 17,
+    "category": "Toys",
+    "name": "Floating Frisbee",
+    "bgImage": "https://images.unsplash.com/photo-1591946649983-6f0c44d32e6c?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60",
+    "description": "Water-friendly frisbee for pool fun.",
+    "price": "$14"
+  },
+  {
+    "id": 18,
+    "category": "Toys",
+    "name": "Puzzle Feeder",
+    "bgImage": "https://images.unsplash.com/photo-1591946649994-3c5f32c8e6c6?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60",
+    "description": "Mental stimulation toy with treat reward.",
+    "price": "$16"
+  },
+  {
+    "id": 19,
+    "category": "Toys",
+    "name": "Crinkle Ball",
+    "bgImage": "https://images.unsplash.com/photo-1591946649974-3c5f32c8e6c7?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60",
+    "description": "Noise-making ball that cats love.",
+    "price": "$5"
+  },
+  {
+    "id": 20,
+    "category": "Toys",
+    "name": "Fetch Stick",
+    "bgImage": "https://images.unsplash.com/photo-1591946649964-3c5f32c8e6c8?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60",
+    "description": "Rubber throw stick for fetch games.",
+    "price": "$11"
+  },
+  {
+    "id": 21,
+    "category": "Grooming Essentials",
+    "name": "Pet Shampoo",
+    "bgImage": "https://images.unsplash.com/photo-1601758228041-f3b2795255f1?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60",
+    "description": "Gentle shampoo for sensitive skin.",
+    "price": "$15"
+  },
+  {
+    "id": 22,
+    "category": "Grooming Essentials",
+    "name": "Deshedding Tool",
+    "bgImage": "https://images.unsplash.com/photo-1525253013412-55c1a69a5738?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60",
+    "description": "Reduces shedding by up to 90%.",
+    "price": "$22"
+  },
+  {
+    "id": 23,
+    "category": "Grooming Essentials",
+    "name": "Nail Clippers",
+    "bgImage": "https://images.unsplash.com/photo-1594824523272-5f1a0d72e6d1?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60",
+    "description": "Professional-grade pet nail clippers.",
+    "price": "$12"
+  },
+  {
+    "id": 24,
+    "category": "Grooming Essentials",
+    "name": "Detangling Spray",
+    "bgImage": "https://images.unsplash.com/photo-1594824523273-5f1a0d72e6d2?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60",
+    "description": "Makes brushing easier and pain-free.",
+    "price": "$9"
+  },
+  {
+    "id": 25,
+    "category": "Grooming Essentials",
+    "name": "Toothbrush Kit",
+    "bgImage": "https://images.unsplash.com/photo-1594824523274-5f1a0d72e6d3?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60",
+    "description": "Complete dental care set for pets.",
+    "price": "$13"
+  },
+  {
+    "id": 26,
+    "category": "Grooming Essentials",
+    "name": "Ear Cleaner",
+    "bgImage": "https://images.unsplash.com/photo-1594824523275-5f1a0d72e6d4?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60",
+    "description": "Gentle formula for cleaning pet ears.",
+    "price": "$8"
+  },
+  {
+    "id": 27,
+    "category": "Grooming Essentials",
+    "name": "Grooming Wipes",
+    "bgImage": "https://images.unsplash.com/photo-1594824523276-5f1a0d72e6d5?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60",
+    "description": "Quick clean between baths.",
+    "price": "$7"
+  },
+  {
+    "id": 28,
+    "category": "Grooming Essentials",
+    "name": "Slicker Brush",
+    "bgImage": "https://images.unsplash.com/photo-1594824523277-5f1a0d72e6d6?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60",
+    "description": "Removes mats and tangles gently.",
+    "price": "$11"
+  },
+  {
+    "id": 29,
+    "category": "Grooming Essentials",
+    "name": "Pet Cologne",
+    "bgImage": "https://images.unsplash.com/photo-1594824523278-5f1a0d72e6d7?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60",
+    "description": "Leaves your pet smelling fresh.",
+    "price": "$10"
+  },
+  {
+    "id": 30,
+    "category": "Grooming Essentials",
+    "name": "Paw Balm",
+    "bgImage": "https://images.unsplash.com/photo-1594824523279-5f1a0d72e6d8?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60",
+    "description": "Protects and heals dry paws.",
+    "price": "$9"
+  },
+  {
+    "id": 31,
+    "category": "Bedding and Apparel",
+    "name": "Cozy Pet Bed",
+    "bgImage": "https://images.unsplash.com/photo-1531875506263-6ed6a416d8e8?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60",
+    "description": "Soft, comfortable bed for pets.",
+    "price": "$35"
+  },
+  {
+    "id": 32,
+    "category": "Bedding and Apparel",
+    "name": "Winter Jacket",
+    "bgImage": "https://images.unsplash.com/photo-1594824523280-5f1a0d72e6d9?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60",
+    "description": "Keeps your dog warm in cold weather.",
+    "price": "$28"
+  },
+  {
+    "id": 33,
+    "category": "Bedding and Apparel",
+    "name": "Orthopedic Bed",
+    "bgImage": "https://images.unsplash.com/photo-1594824523281-5f1a0d72e6da?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60",
+    "description": "Supports joints for older pets.",
+    "price": "$45"
+  },
+  {
+    "id": 34,
+    "category": "Bedding and Apparel",
+    "name": "Raincoat",
+    "bgImage": "https://images.unsplash.com/photo-1594824523282-5f1a0d72e6db?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60",
+    "description": "Waterproof protection for rainy days.",
+    "price": "$25"
+  },
+  {
+    "id": 35,
+    "category": "Bedding and Apparel",
+    "name": "Window Perch",
+    "bgImage": "https://images.unsplash.com/photo-1594824523283-5f1a0d72e6dc?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60",
+    "description": "Gives cats a view of outdoors.",
+    "price": "$32"
+  },
+  {
+    "id": 36,
+    "category": "Bedding and Apparel",
+    "name": "Hooded Sweater",
+    "bgImage": "https://images.unsplash.com/photo-1594824523284-5f1a0d72e6dd?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60",
+    "description": "Keeps your pet stylish and warm.",
+    "price": "$22"
+  },
+  {
+    "id": 37,
+    "category": "Bedding and Apparel",
+    "name": "Cooling Mat",
+    "bgImage": "https://images.unsplash.com/photo-1594824523285-5f1a0d72e6de?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60",
+    "description": "Helps pets stay cool in hot weather.",
+    "price": "$29"
+  },
+  {
+    "id": 38,
+    "category": "Bedding and Apparel",
+    "name": "Bandana",
+    "bgImage": "https://images.unsplash.com/photo-1594824523286-5f1a0d72e6df?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60",
+    "description": "Adds style to your pet's look.",
+    "price": "$8"
+  },
+  {
+    "id": 39,
+    "category": "Bedding and Apparel",
+    "name": "Travel Carrier",
+    "bgImage": "https://images.unsplash.com/photo-1594824523287-5f1a0d72e6e0?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60",
+    "description": "Safe and comfortable for travel.",
+    "price": "$42"
+  },
+  {
+    "id": 40,
+    "category": "Bedding and Apparel",
+    "name": "Elevated Feeder",
+    "bgImage": "https://images.unsplash.com/photo-1594824523288-5f1a0d72e6e1?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60",
+    "description": "Improves posture during meals.",
+    "price": "$26"
+  },
+  {
+    "id": 41,
+    "category": "Health Supplements",
+    "name": "Joint Support",
+    "bgImage": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60",
+    "description": "Supports joint health in older pets.",
+    "price": "$25"
+  },
+  {
+    "id": 42,
+    "category": "Health Supplements",
+    "name": "Omega-3 Supplement",
+    "bgImage": "https://images.unsplash.com/photo-1594824523289-5f1a0d72e6e2?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60",
+    "description": "Promotes healthy skin and coat.",
+    "price": "$19"
+  },
+  {
+    "id": 43,
+    "category": "Health Supplements",
+    "name": "Probiotics",
+    "bgImage": "https://images.unsplash.com/photo-1594824523290-5f1a0d72e6e3?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60",
+    "description": "Supports digestive health.",
+    "price": "$22"
+  },
+  {
+    "id": 44,
+    "category": "Health Supplements",
+    "name": "Multivitamin",
+    "bgImage": "https://images.unsplash.com/photo-1594824523291-5f1a0d72e6e4?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60",
+    "description": "Complete daily vitamin support.",
+    "price": "$18"
+  },
+  {
+    "id": 45,
+    "category": "Health Supplements",
+    "name": "Calming Aid",
+    "bgImage": "https://images.unsplash.com/photo-1594824523292-5f1a0d72e6e5?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60",
+    "description": "Reduces anxiety in stressful situations.",
+    "price": "$21"
+  },
+  {
+    "id": 46,
+    "category": "Health Supplements",
+    "name": "Dental Chews",
+    "bgImage": "https://images.unsplash.com/photo-1594824523293-5f1a0d72e6e6?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60",
+    "description": "Reduces plaque and tartar buildup.",
+    "price": "$15"
+  },
+  {
+    "id": 47,
+    "category": "Health Supplements",
+    "name": "Skin & Coat Formula",
+    "bgImage": "https://images.unsplash.com/photo-1594824523294-5f1a0d72e6e7?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60",
+    "description": "Promotes shiny coat and healthy skin.",
+    "price": "$20"
+  },
+  {
+    "id": 48,
+    "category": "Health Supplements",
+    "name": "Flea & Tick Prevention",
+    "bgImage": "https://images.unsplash.com/photo-1594824523295-5f1a0d72e6e8?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60",
+    "description": "Monthly protection against parasites.",
+    "price": "$27"
+  },
+  {
+    "id": 49,
+    "category": "Health Supplements",
+    "name": "Hip & Joint Chews",
+    "bgImage": "https://images.unsplash.com/photo-1594824523296-5f1a0d72e6e9?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60",
+    "description": "Supports mobility and joint health.",
+    "price": "$23"
+  },
+  {
+    "id": 50,
+    "category": "Health Supplements",
+    "name": "Urinary Health Support",
+    "bgImage": "https://images.unsplash.com/photo-1594824523297-5f1a0d72e6ea?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=60",
+    "description": "Promotes urinary tract health.",
+    "price": "$17"
+  }
+]

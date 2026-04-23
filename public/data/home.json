@@ -1,0 +1,12 @@
+{
+  "form": {
+    "title": "Welcome to Pawfect Care ",
+    "subtitle": "YOUR TRUSTED COMPANION FOR ALL THINGS PET CARE",
+    "background": "/h1.jpg",
+    "options": {
+      "petOwner": " Pet Owner",
+      "veterinarian": " Veterinarian",
+      "shelter": "Animal Shelter / Rescue volunteer"
+    }
+  }
+}

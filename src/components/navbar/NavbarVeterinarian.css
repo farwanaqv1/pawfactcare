@@ -1,0 +1,200 @@
+
+.vet-navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 30px;
+  background: #ffffff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  font-family: 'Poppins', sans-serif;
+  transition: all 0.3s ease;
+  min-height: 100px;
+  box-shadow: 0 4px 12px rgba(255, 72, 128, 0.35);
+}
+
+.vet-logo {
+  position: absolute;
+  left: 10px;
+}
+
+.vet-logo img {
+  height: 130px;
+  width: 250px;
+  transition: all 0.3s ease;
+}
+
+
+.vet-nav-links {
+  list-style: none;
+  display: flex;
+  gap: 5px;
+  font-size:15px;
+  margin: 0;
+  padding: 0;
+}
+
+.vet-nav-links a,
+.vet-dropdown > span {
+  text-decoration: none;
+  color: #f67280;
+  font-weight: bold;
+  padding: 10px 14px;
+  border-radius: 6px;
+  margin: 0 2px;
+  position: relative;
+  transition: background 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.vet-nav-links a:hover,
+.vet-dropdown > span:hover {
+  background: #f67280;
+  color: #fff !important;
+  box-shadow: 0 0 8px rgba(246, 114, 128, 0.5);
+}
+
+.vet-nav-links a.active {
+  background-color: #f67280;
+  color: #fff !important;
+  font-weight: bold;
+  box-shadow: 0 0 8px rgba(246, 114, 128, 0.6);
+}
+
+
+.vet-nav-links li {
+  position: relative;
+}
+
+.vet-dropdown-menu {
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: all 0.3s ease;
+  position: absolute;
+  top: 58px;
+  left: 0;
+  background: #ffffff;
+  min-width: 200px;
+  border-radius: 6px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  padding: 0;
+  z-index: 1000;
+  list-style: none;
+}
+
+.vet-dropdown:hover .vet-dropdown-menu,
+.vet-dropdown.open .vet-dropdown-menu {
+  max-height: 500px;
+  opacity: 1;
+  transform: translateY(0);
+  padding: 10px 0;
+}
+
+.vet-dropdown-menu li a {
+  color: #f67280;
+  font-weight: bold;
+  display: block;
+  padding: 10px 20px;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+.vet-dropdown-menu li a:hover {
+  background: #f67280;
+  color: #fff;
+  border-radius: 4px;
+}
+
+.vet-dropdown > span::after {
+  content: " ▼";
+  font-size: 0.7rem;
+  color: #f67280;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.vet-dropdown.open > span::after,
+.vet-dropdown:hover > span::after {
+  transform: rotate(180deg);
+}
+
+
+.vet-owner {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-weight: bold;
+  font-size: 1rem;
+  color: #333;
+}
+
+
+.vet-hamburger {
+  display: none;
+  font-size: 32px;
+  background: none;
+  border: none;
+  color: #f67280;
+  cursor: pointer;
+  position: absolute;
+  right: 20px;
+  top: 35px;
+}
+
+
+@media (max-width: 768px) {
+  .vet-navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 15px 20px;
+    position: relative;
+  }
+
+  .vet-logo {
+    position: static;
+    margin-bottom: 10px;
+  }
+
+  .vet-hamburger {
+    display: block;
+    position: absolute;
+    right: 20px;
+    top: 25px;
+    z-index: 1100;
+  }
+
+  .vet-nav-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    background: #fff;
+    margin-top: 10px;
+    border-top: 1px solid #eee;
+    padding: 10px 0;
+    position: relative;
+  }
+
+  .vet-nav-links.show {
+    display: flex;
+  }
+
+  .vet-nav-links li {
+    width: 100%;
+    padding: 10px 20px;
+  }
+
+  .vet-dropdown-menu {
+    position: static;
+    box-shadow: none;
+    padding-left: 20px;
+  }
+
+  .vet-owner {
+    position: static;
+    margin-top: 10px;
+    align-self: flex-end;
+  }
+}

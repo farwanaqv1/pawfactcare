@@ -1,0 +1,34 @@
+{
+  "title": "Contact Us",
+  "subtitle": "We’d love to hear from you! Reach out for any inquiries, support, or collaborations.",
+  "form": {
+    "fields": ["Email", "Phone", "Name", "Message"],
+    "submit": "Submit"
+  },
+  "newsletter": {
+    "title": "Our Newsletters",
+    "subtitle": "Stay updated with petcare tips, health advice, and exclusive offers.",
+    "placeholder": "Enter your email",
+    "button": "Subscribe"
+  },
+  "contacts": [
+    {
+      "icon": "phone",
+      "text": "(+876) 765 665",
+      "desc": "Available Mon - Fri, 9am - 6pm"
+    },
+    {
+      "icon": "mail",
+      "text": "mail@petcare.id",
+      "desc": "Drop us an email anytime"
+    },
+    {
+      "icon": "location",
+      "text": "PetCare HQ, London Eye, UK",
+      "desc": "Visit us at our office"
+    }
+  ],
+  "map": {
+    "embedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19800.836804...LondonEye"
+  }
+}

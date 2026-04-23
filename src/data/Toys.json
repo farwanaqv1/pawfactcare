@@ -1,0 +1,146 @@
+[
+  {
+    "id": 11,
+    "category": "Toys",
+    "name": "Chew Ball",
+    "bgImage": "/toy1.jpg",
+    "description": "Durable rubber chew ball for dogs.",
+    "price": "$10",
+    "petType": "dog"
+  },
+  {
+    "id": 12,
+    "category": "Toys",
+    "name": "Feather Teaser",
+    "bgImage": "/toy2.webp",
+    "description": "Interactive toy for cats.",
+    "price": "$8",
+    "petType": "cat"
+  },
+  {
+    "id": 13,
+    "category": "Toys",
+    "name": "Squeaky Plush Toy",
+    "bgImage": "/toy3.jpg",
+    "description": "Soft plush toy with squeaker for dogs.",
+    "price": "$12",
+    "petType": "dog"
+  },
+  {
+    "id": 14,
+    "category": "Toys",
+    "name": "Laser Pointer",
+    "bgImage": "/toy4.jpg",
+    "description": "Endless fun for cats with laser pointer.",
+    "price": "$7",
+    "petType": "cat"
+  },
+  {
+    "id": 15,
+    "category": "Toys",
+    "name": "Tug Rope",
+    "bgImage": "/toy5.jpg",
+    "description": "Durable cotton rope for tug games.",
+    "price": "$9",
+    "petType": "dog"
+  },
+  {
+    "id": 16,
+    "category": "Toys",
+    "name": "Catnip Mice",
+    "bgImage": "/toy6.avif",
+    "description": "Set of 3 catnip-infused toy mice.",
+    "price": "$6",
+    "petType": "cat"
+  },
+  {
+    "id": 17,
+    "category": "Toys",
+    "name": "Floating Frisbee",
+    "bgImage": "/toy7.jpg",
+    "description": "Water-friendly frisbee for pool fun.",
+    "price": "$14",
+    "petType": "dog"
+  },
+  {
+    "id": 18,
+    "category": "Toys",
+    "name": "Puzzle Feeder",
+    "bgImage": "/toy8.jpg",
+    "description": "Mental stimulation toy with treat reward.",
+    "price": "$16",
+    "petType": "cat"
+  },
+  {
+    "id": 19,
+    "category": "Toys",
+    "name": "Rope Ball",
+    "bgImage": "/toy9.jfif",
+    "description": "Tough rope ball for chewing and fetching.",
+    "price": "$11",
+    "petType": "dog"
+  },
+  {
+    "id": 20,
+    "category": "Toys",
+    "name": "Tunnel Toy",
+    "bgImage": "/toy10.jfif",
+    "description": "Collapsible tunnel for cats to play and hide.",
+    "price": "$15",
+    "petType": "cat"
+  },
+  {
+    "id": 21,
+    "category": "Toys",
+    "name": "Treat Dispenser Ball",
+    "bgImage": "/toy11.jfif",
+    "description": "Interactive ball that dispenses treats.",
+    "price": "$13",
+    "petType": "dog"
+  },
+  {
+    "id": 22,
+    "category": "Toys",
+    "name": "Scratching Post",
+    "bgImage": "/toy12.jfif",
+    "description": "Sturdy scratching post for healthy cat claws.",
+    "price": "$18",
+    "petType": "cat"
+  },
+  {
+    "id": 23,
+    "category": "Toys",
+    "name": "Rubber Bone",
+    "bgImage": "/toy13.jfif",
+    "description": "Durable chew bone for dogs of all sizes.",
+    "price": "$9",
+    "petType": "dog"
+  },
+  {
+    "id": 24,
+    "category": "Toys",
+    "name": "Interactive Ball Tower",
+    "bgImage": "/toy14.jfif",
+    "description": "Multi-level tower with rolling balls for cats.",
+    "price": "$17",
+    "petType": "cat"
+  },
+  {
+    "id": 25,
+    "category": "Toys",
+    "name": "Frisbee Disc",
+    "bgImage": "/toy15.jfif",
+    "description": "Lightweight frisbee disc for outdoor fetch.",
+    "price": "$10",
+    "petType": "dog"
+  },
+  {
+    "id": 26,
+    "category": "Toys",
+    "name": "Cat Climbing Tree",
+    "bgImage": "/toy16.jfif",
+    "description": "Mini climbing tree with perch for cats.",
+    "price": "$30",
+    "petType": "cat"
+  }
+]

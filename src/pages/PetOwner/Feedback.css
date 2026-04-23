@@ -1,0 +1,245 @@
+
+.feedback-hero-section {
+  height: 70vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+    background-image: url("/bann2.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+.feedback-hero-section::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+ 
+}
+.feedback-hero-section::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.3) ;
+  z-index: 0;
+ 
+ 
+}
+.feedback-hero-section .container {
+  position: relative;
+  z-index: 1;
+}
+.feedback-hero-heading {
+  font-size: 4rem;
+  font-weight: 800; 
+  color: #fff;
+  text-shadow: 0 0 15px rgba(0, 0, 0, 0.8);
+  text-align: center;
+}
+
+.Feedback-container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.Feedback-form-section {
+  flex: 1;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+
+background-image: url('/Background.jpeg');
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #f0f0f09f;
+  background-blend-mode: lighten;
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeInUp 0.8s ease forwards;
+}
+
+
+.Feedback-image-section {
+  flex: 1;
+  background: linear-gradient(rgba(149, 149, 150, 0.7), rgba(241, 120, 225, 0.7)),
+              url('/feedbackimg.webp') center/cover no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  color: white;
+  position: relative;
+  
+}
+
+
+.Feedback-form-header h1 {
+  color: #393d72;
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+.Feedback-form-header p {
+  color: #ff4880;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+.Feedback-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+}
+.Feedback-form-group {
+  margin-bottom: 25px;
+}
+.Feedback-form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #393d72;
+  
+}
+.Feedback-form-group input,
+.Feedback-form-group textarea {
+  width: 100%;
+  padding: 15px;
+  border: 1.5px solid #ff4880;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.3s;
+    box-shadow: 0 0 16px #f76692;
+
+}
+.Feedback-form-group input:focus,
+.Feedback-form-group textarea:focus,
+.Feedback-form-group input:hover,
+.Feedback-form-group textarea:hover {
+  outline: none;
+  border-color: #8fc424;
+  box-shadow: none;
+}
+.Feedback-checkbox-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.Feedback-checkbox-group input {
+  margin-right: 10px;
+  width: 18px;
+  height: 18px;
+  accent-color: #ff4880;
+}
+.Feedback-checkbox-group label {
+  margin: 0;
+  font-weight: normal;
+  color: #555;
+}
+
+
+.Feedback-submit-btn {
+  background-color: #ff4880;
+  color: white;
+  border: none;
+  padding: 12px 20px; 
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  width: auto;
+  transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
+}
+.Feedback-submit-btn:hover {
+  background-color: #8fc424;
+  transform: translateY(-3px); 
+  box-shadow: 0 8px 15px rgba(0,0,0,0.2);
+}
+
+
+.Feedback-image-overlay {
+  text-align: center;
+  max-width: 500px;
+}
+.Feedback-image-overlay h2 {
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+.Feedback-image-overlay p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  opacity: 0.9;
+}
+.Feedback-features {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 30px;
+}
+.Feedback-feature {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 1.1rem;
+}
+.Feedback-feature-icon {
+  background: #8fc424;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+/* ================== Animations ================== */
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes bounce {
+  0%   { transform: scale(1); }
+  30%  { transform: scale(1.1); }
+  50%  { transform: scale(0.95); }
+  70%  { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
+@keyframes bgZoom {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.2); }
+  100% { transform: scale(1); }
+}
+
+.scroll-animate, .form-animate {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 0.8s ease-out;
+}
+.scroll-animate.active, .form-animate.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (max-width: 900px) {
+  .Feedback-container {
+    flex-direction: column;
+  }
+  .Feedback-form-section, .Feedback-image-section {
+    padding: 30px;
+  }
+  .Feedback-image-section {
+    min-height: 400px;
+  }
+  .Feedback-submit-btn {
+    width: 100%; 
+    text-align: center;
+  }
+}

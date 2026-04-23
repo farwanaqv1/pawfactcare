@@ -1,0 +1,2454 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+.petowner-hero-section {
+  height: 70vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+   background-image: url("/bann1.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.petowner-hero-section::before {
+  content: "assets/banimg1.webp";
+  position: absolute;
+  inset: 0;
+ 
+}
+
+
+
+.petowner-hero-section::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.3);
+  z-index: 0;
+}
+
+.petowner-hero-section .container { 
+  position: relative; 
+  z-index: 1; 
+}
+
+.petowner-hero-heading {
+  font-size: 4rem;
+  font-weight: 700;
+  color: #fff;
+  text-shadow: 0 0 15px rgba(0, 0, 0, 0.8);
+  text-align: center;
+}
+
+.petowner-container {
+  font-family: "Arial", sans-serif;
+  color: #393d72;
+}
+
+.petowner-tips-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.petowner-tips-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 24px;
+  margin-top: 24px;
+}
+
+.petowner-tip-card {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: all 0.3s ease;
+}
+
+.petowner-tip-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
+}
+
+
+.petowner-tip-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+
+.petowner-tip-number {
+  background: #ff4880;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1rem;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.petowner-tip-icon svg {
+  color: #ff4880;
+}
+
+
+.petowner-tip-text {
+  font-size: 0.95rem;
+  color: #444;
+  line-height: 1.6;
+}
+
+
+.petowner-tip-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 18px;
+  padding-top: 12px;
+  border-top: 1px solid #eee;
+}
+
+.petowner-tip-source {
+  font-size: 0.85rem;
+  color: #888;
+  font-style: italic;
+}
+
+.petowner-tip-action-btn {
+  background: #ff4880;
+  border: none;
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: 500;
+  padding: 6px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  transition: background 0.3s ease;
+}
+
+.petowner-tip-action-btn:hover {
+  background: #e53a6f;
+}
+
+.petowner-tip-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.2s ease;
+}
+
+.petowner-tip-card:hover {
+  transform: translateY(-4px);
+}
+
+.petowner-tip-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.petowner-tip-number {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #ff4880;
+  background: #ffe8ef;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.petowner-tip-text {
+  font-size: 0.95rem;
+  color: #333;
+  line-height: 1.5;
+}
+
+.petowner-tip-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.petowner-tip-action-btn {
+  background: none;
+  border: none;
+  color: #ff4880;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.petowner-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #f8f9fa;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.petowner-user-info h2 {
+  color: #ff4880;
+  margin-bottom: 0.5rem;
+}
+
+.petowner-user-info p {
+  margin: 0.25rem 0;
+  color: #393d72;
+}
+
+.petowner-ticker {
+  overflow: hidden;
+  height: 30px;
+  background-color: #393d72;
+  color: white;
+  display: flex;
+  align-items: center;
+  border-radius: 4px;
+  padding: 0 1rem;
+}
+
+.petowner-ticker-content {
+  display: inline-block;
+  padding-left: 100%;
+  animation: petowner-ticker 15s linear infinite;
+  width: 100%;
+}
+
+.petowner-videos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 3rem;
+  margin-top: 2rem;
+}
+
+
+.petowner-video-card {
+  background: #fff;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.petowner-video-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.15);
+}
+.petowner-video-thumbnail {
+  position: relative;
+}
+
+.petowner-thumbnail-image {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+}
+
+.petowner-thumbnail-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.petowner-video-card:hover .petowner-thumbnail-image img {
+  transform: scale(1.1);
+}
+
+.petowner-thumbnail-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.35);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.petowner-video-card:hover .petowner-thumbnail-overlay {
+  opacity: 1;
+}
+
+.petowner-play-button {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: bold;
+  opacity: 0;
+  transform: scale(0.8);
+  transition: all 0.3s ease;
+}
+
+.petowner-video-card:hover .petowner-play-button {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.petowner-video-badges {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  opacity: 0;
+  transform: translateY(-10px);
+  transition: all 0.3s ease;
+}
+
+.petowner-video-card:hover .petowner-video-badges {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.petowner-badge {
+  padding: 0.4rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: white;
+  backdrop-filter: blur(10px);
+}
+
+.petowner-badge-duration {
+  background: rgba(255, 72, 128, 0.9);
+}
+
+.petowner-badge-views {
+  background: rgba(57, 61, 114, 0.9);
+}
+
+
+.petowner-video-content {
+  padding: 1rem 1.5rem 1.5rem;
+}
+
+.petowner-video-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #393d72;
+  margin-bottom: 0.5rem;
+}
+
+.petowner-video-description {
+  font-size: 0.9rem;
+  color: #6c757d;
+  margin-bottom: 1rem;
+}
+
+.petowner-video-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.petowner-video-action-btn {
+  padding: 0.5rem 1rem;
+  background: #ff4880;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  opacity: 0;
+  transform: translateY(10px);
+}
+
+.petowner-video-card:hover .petowner-video-action-btn {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.petowner-video-action-btn:hover {
+  background: #e04070;
+  transform: translateY(-2px);
+}
+
+
+.petowner-video-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+  padding: 1rem;
+}
+
+.petowner-video-modal-content {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 16px;
+  width: 90%;
+  max-width: 900px;
+  position: relative;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.2);
+}
+
+.petowner-close-button {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  background: rgba(0,0,0,0.1);
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 1.5rem;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.petowner-close-button:hover {
+  background: rgba(0,0,0,0.2);
+}
+
+.petowner-section {
+  padding: 50px;
+  margin: 0 auto;
+}
+
+.petowner-card {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.pet-info-grid {
+  
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.info-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.info-label {
+  font-size:25px;
+
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.info-value {
+  font-size:20px;
+  color: #555;
+}
+
+#feeding-guide {
+  padding: 60px 20px;
+  background-color: #fdf6f9;
+  text-align: center;
+}
+
+#feeding-guide .section-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #ff4880;
+  margin-bottom: 10px;
+}
+
+#feeding-guide .petowner-tips-intro {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 40px;
+}
+
+.feeding-charts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 25px;
+  justify-items: center;
+}
+
+.feeding-chart-card {
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s;
+  width: 100%;
+  max-width: 400px;
+}
+
+.feeding-chart-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.feeding-chart-header {
+  background-color: #ff4880;
+  padding: 15px;
+  color: #fff;
+}
+
+.feeding-chart-title {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.feeding-chart-body {
+  padding: 20px;
+}
+
+.feeding-chart-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.feeding-chart-table th,
+.feeding-chart-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  font-size: 0.9rem;
+}
+.petowner-videos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.petowner-video-card {
+  background-color: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+}
+
+.petowner-video-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 20px rgba(0,0,0,0.15);
+}
+
+.petowner-video-thumbnail {
+  position: relative;
+  width: 100%;
+  height: 180px;
+  overflow: hidden;
+}
+
+.thumbnail-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.thumbnail-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.petowner-video-card:hover .thumbnail-overlay {
+  opacity: 1;
+}
+
+.play-icon {
+  font-size: 40px;
+  color: #fff;
+  background: rgba(255, 72, 128, 0.8); /* Pink highlight */
+  border-radius: 50px;
+  padding: 0px 30px;
+}
+
+.petowner-video-content {
+  padding: 15px 20px;
+}
+
+.video-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.video-description {
+  font-size: 0.95rem;
+  color: #555;
+  margin-bottom: 12px;
+}
+
+.video-info {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.85rem;
+  color: #888;
+  margin-bottom: 12px;
+}
+
+.video-watch-btn {
+  background-color: #ff4880;
+  color: #fff;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.video-watch-btn:hover {
+  background-color: #e63d73;
+}
+
+/* Modal Styling */
+.video-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 500px;
+  background: rgba(0,0,0,0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+.video-modal-content {
+  background: #fff;
+  width: 40%;
+  max-width: 900px;
+  border-radius: 12px;
+  padding: 20px;
+  height: 500px;
+  top: 40%;
+  position: relative;
+}
+.video-modal-content iframe{
+  width: 100%;
+  height: 200px;
+}
+.close-btn {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  background: transparent;
+  border: none;
+  font-size: 28px;
+  cursor: pointer;
+  color: #333;
+}
+
+.modal-video-details {
+  margin-top: 15px;
+}
+
+.feeding-chart-table th {
+  background-color: #ffe6f0;
+  color: #ff4880;
+  font-weight: 600;
+}
+
+@media (max-width: 600px) {
+  #feeding-guide {
+    padding: 40px 10px;
+  }
+}
+
+.vaccination-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.vaccination-card {
+
+  box-shadow: 0 0 10px grey;
+  padding: 15px;
+  border-radius: 8px;
+  
+}
+
+.vax-details {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.vax-date {
+  display: flex;
+  justify-content: space-between;
+}
+
+.vax-label {
+  font-weight: 600;
+  color: #393d72;
+}
+
+.vax-value {
+  color: #555;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+}
+
+.petowner-form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.petowner-form-group label {
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+.petowner-form-group input {
+  padding: 10px;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.vaccination-edit-card {
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.petowner-button {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.petowner-button:hover {
+  opacity: 0.9;
+}
+
+.petowner-secondary-button {
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.button-group {
+  display: flex;
+  gap: 10px;
+}
+
+
+@media (max-width: 768px) {
+  .pet-info-grid,
+  .form-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .vaccination-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.petowner-feeding-tips {
+  margin-top: 2.5rem;
+}
+
+.petowner-tips-intro {
+  text-align: center;
+  color: #6c757d;
+  margin-bottom: 2rem;
+  font-style: italic;
+  font-size: 1.1rem;
+}
+
+.petowner-tips-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 2rem;
+  margin-top: 1.5rem;
+}
+
+.petowner-tip-card {
+  background: linear-gradient(135deg, #ffffff 0%, #f8f9fa 100%);
+  border-radius: 16px;
+  padding: 2rem;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+  border: 2px solid #e9ecef;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.petowner-tip-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 45px rgba(57, 61, 114, 0.15);
+  border-color: #8fc424;
+}
+
+.petowner-tip-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 4px;
+  height: 100%;
+  background: linear-gradient(135deg, #ff4880 0%, #8fc424 100%);
+  transition: width 0.3s ease;
+}
+
+.petowner-tip-card:hover::before {
+  width: 6px;
+}
+
+.petowner-tip-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  gap: 1rem;
+}
+
+.petowner-tip-number {
+  width: 40px;
+  height: 40px;
+  background: linear-gradient(135deg, #ff4880 0%, #e04070 100%);
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 1.1rem;
+  flex-shrink: 0;
+  box-shadow: 0 4px 15px rgba(255, 72, 128, 0.3);
+}
+
+.petowner-tip-icon {
+  color: #8fc424;
+  flex-shrink: 0;
+}
+
+.petowner-tip-icon svg {
+  width: 32px;
+  height: 32px;
+}
+
+.petowner-tip-content {
+  position: relative;
+}
+
+.petowner-tip-text {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #495057;
+  margin: 0;
+  padding-left: 1.5rem;
+  border-left: 3px solid #393d72;
+  position: relative;
+}
+
+.petowner-tip-text::before {
+  content: '"';
+  font-size: 2.5rem;
+  color: #8fc424;
+  position: absolute;
+  left: -0.5rem;
+  top: -0.5rem;
+  font-family: serif;
+  opacity: 0.3;
+}
+
+.petowner-tip-footer {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1rem;
+  border-top: 1px solid #e9ecef;
+}
+
+.petowner-tip-source {
+  font-size: 0.85rem;
+  color: #6c757d;
+  font-style: italic;
+}
+
+.petowner-tip-actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.petowner-tip-action-btn {
+  background: rgba(57, 61, 114, 0.1);
+  border: none;
+  border-radius: 20px;
+  padding: 0.5rem 1rem;
+  font-size: 0.8rem;
+  color: #393d72;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.petowner-tip-action-btn:hover {
+  background: rgba(57, 61, 114, 0.2);
+  transform: translateY(-1px);
+  color: red;
+}
+
+.petowner-tip-action-btn svg {
+  width: 14px;
+  height: 14px;
+}
+.petowner-tip-action-btn svg :hover {
+  color: red;
+}
+@keyframes petowner-tip-appear {
+  0% {
+    opacity: 0;
+    transform: translateY(20px) scale(0.95);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.petowner-tip-card {
+  animation: petowner-tip-appear 0.6s ease-out;
+}
+
+.petowner-tip-card:nth-child(2) {
+  animation-delay: 0.1s;
+}
+
+.petowner-tip-card:nth-child(3) {
+  animation-delay: 0.2s;
+}
+
+.petowner-tip-card:nth-child(4) {
+  animation-delay: 0.3s;
+}
+
+.petowner-tip-card:nth-child(5) {
+  animation-delay: 0.4s;
+}
+
+.petowner-tip-card:hover .petowner-tip-text {
+  border-left-color: #ff4880;
+}
+
+@media (max-width: 768px) {
+  .petowner-tips-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .petowner-tip-card {
+    padding: 1.5rem;
+  }
+
+  .petowner-tip-header {
+    margin-bottom: 1rem;
+  }
+
+  .petowner-tip-text {
+    font-size: 0.95rem;
+    padding-left: 1rem;
+  }
+
+  .petowner-tip-footer {
+    flex-direction: column;
+    gap: 1rem;
+    align-items: flex-start;
+  }
+
+  .petowner-tip-actions {
+    width: 100%;
+    justify-content: space-between;
+  }
+}
+
+.petowner-tip-card:focus {
+  outline: 2px solid #ff4880;
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .petowner-tip-card {
+    animation: none;
+    transition: none;
+  }
+
+  .petowner-tip-card:hover {
+    transform: none;
+  }
+
+  .petowner-tip-action-btn:hover {
+    transform: none;
+  }
+}
+
+.petowner-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  margin: 1.5rem 0;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.08);
+}
+
+.petowner-table th {
+  background: linear-gradient(135deg, #8fc424 0%, #7db020 100%);
+  color: white;
+  padding: 1rem 1.2rem;
+  text-align: left;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.petowner-table td {
+  padding: 1rem 1.2rem;
+  border-bottom: 1px solid #e9ecef;
+  background: white;
+  font-size: 0.9rem;
+  transition: background-color 0.3s ease;
+}
+
+.petowner-table tr:last-child td {
+  border-bottom: none;
+}
+
+.petowner-table tr:hover td {
+  background: #f8f9fa;
+}
+
+.petowner-table-container {
+  overflow-x: auto;
+  border-radius: 12px;
+  margin: 1.5rem 0;
+}
+
+@keyframes petowner-video-fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.petowner-video-card {
+  animation: petowner-video-fadeIn 0.5s ease-out;
+}
+
+.petowner-video-card:nth-child(2) {
+  animation-delay: 0.1s;
+}
+
+.petowner-video-card:nth-child(3) {
+  animation-delay: 0.2s;
+}
+
+.petowner-video-card:nth-child(4) {
+  animation-delay: 0.3s;
+}
+
+.petowner-video-card:nth-child(5) {
+  animation-delay: 0.4s;
+}
+
+.petowner-video-card:nth-child(6) {
+  animation-delay: 0.5s;
+}
+
+@media (max-width: 768px) {
+  .petowner-videos-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .petowner-video-card {
+    margin-bottom: 1.5rem;
+  }
+
+  .petowner-video-footer {
+    flex-direction: column;
+    gap: 1rem;
+    align-items: flex-start;
+  }
+
+  .petowner-video-action-btn {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .petowner-video-badges {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes petowner-ticker {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-100%, 0);
+  }
+}
+
+.petowner-nav {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 100;
+}
+
+.petowner-nav-list {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.petowner-nav-item {
+  margin: 0;
+}
+
+.petowner-nav-button {
+  padding: 1rem 1.5rem;
+  background: none;
+  border: none;
+  color: #393d72;
+  cursor: pointer;
+  font-weight: bold;
+  transition: color 0.3s, background-color 0.3s;
+}
+
+.petowner-nav-button:hover {
+  color: #ff4880;
+  background-color: #f8f9fa;
+}
+
+.petowner-nav-button.petowner-active {
+  color: #ff4880;
+  border-bottom: 3px solid #ff4880;
+}
+
+.petowner-section {
+  margin-bottom: 3rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: rgba(241, 221, 221, 0.505);
+}
+
+.petowner-section h2 {
+  color: #151950;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  border-bottom: 3px solid#ff4880;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 2rem;
+}
+
+.petowner-card {
+  box-shadow: 10px 10px 10px grey;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  background-color: #fff;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.petowner-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.petowner-button {
+  background-color: #ff4880;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.petowner-button:hover {
+  background-color: #e04070;
+}
+
+.petowner-secondary-button {
+  background-color: #8fc424;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.petowner-secondary-button:hover {
+  background-color: #7db020;
+}
+
+.petowner-grid {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.petowner-two-columns {
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+
+.petowner-three-columns {
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
+
+.petowner-form-group {
+  margin-bottom: 1rem;
+}
+
+.petowner-form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  color: #04072c;
+}
+
+.petowner-form-group input,
+.petowner-form-group select,
+.petowner-form-group textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.petowner-accordion {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 0.5rem;
+}
+
+.petowner-accordion-header {
+  padding: 1rem;
+  background-color: #f8f9fa;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  color: #393d72;
+}
+
+.petowner-accordion-header:hover {
+  background-color: rgb(241, 186, 186);
+}
+
+.petowner-accordion-content {
+  padding: 1rem;
+  border-top: 1px solid #ddd;
+  background-color: rgb(241, 186, 186);
+}
+
+.petowner-table-container {
+  overflow-x: auto;
+}
+
+.petowner-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.petowner-table th,
+.petowner-table td {
+  padding: 0.75rem;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.petowner-table th {
+  background-color: #f8f9fa;
+  font-weight: bold;
+  color: #393d72;
+}
+
+.petowner-video-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.petowner-video-modal-content {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 8px;
+  max-width: 800px;
+  width: 90%;
+  position: relative;
+}
+
+.petowner-close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #393d72;
+}
+
+
+.petowner-products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 3rem;
+  margin-top: 1.5rem;
+}
+
+.petowner-product-card {
+  position: relative;
+  width: 100%;
+  height: 380px;
+  border-radius: 25px;
+  background: white;
+  color: #393d72;
+  z-index: 2;
+  transition: all 0.4s ease-in-out;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.petowner-product-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+  background: linear-gradient(135deg, #f8a9c1, #f9c1d2);
+}
+
+.petowner-product-card:hover .petowner-product-title,
+.petowner-product-card:hover .petowner-product-category,
+.petowner-product-card:hover .petowner-product-description,
+.petowner-product-card:hover .petowner-product-price {
+  color: white;
+}
+
+.petowner-product-card:hover .petowner-product-detail svg path {
+  fill: white;
+}
+
+.petowner-product-card:hover .petowner-product-detail span {
+  color: white;
+}
+
+.petowner-product-image {
+  width: 100%;
+  height: 180px;
+  overflow: hidden;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+.petowner-product-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease-in-out;
+}
+
+.petowner-product-card:hover .petowner-product-image img {
+  transform: scale(1.1);
+}
+
+.petowner-product-main {
+  padding: 1.2em;
+  flex-grow: 1;
+}
+
+.petowner-product-title {
+  color: #393d72;
+  font-size: 1.4em;
+  font-weight: 700;
+  margin-bottom: 0.5em;
+  transition: color 0.4s ease-in-out;
+}
+
+.petowner-product-category {
+  color: #ff4880;
+  font-size: 0.9em;
+  font-weight: 600;
+  margin-bottom: 0.8em;
+  transition: color 0.4s ease-in-out;
+}
+
+.petowner-product-description {
+  font-size: 0.95em;
+  font-weight: 400;
+  line-height: 1.4em;
+  color: #666;
+  margin-bottom: 1em;
+  transition: color 0.4s ease-in-out;
+  display: -webkit-box;
+ 
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.petowner-product-price {
+  color: #393d72;
+  font-size: 1.3em;
+  font-weight: 700;
+  transition: color 0.4s ease-in-out;
+}
+
+.petowner-product-details {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1.2em;
+  margin-bottom: 1em;
+}
+
+.petowner-product-detail {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.8em;
+}
+
+.petowner-product-detail span {
+  color: #666;
+  transition: color 0.4s ease-in-out;
+}
+
+.petowner-product-footer {
+  padding: 0 1.2em 1.2em;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.4s ease-in-out;
+}
+
+.petowner-product-card:hover .petowner-product-footer {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.petowner-product-buy-btn {
+  width: 100%;
+  padding: 0.8rem;
+  background: white;
+  color: #ff4880;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.petowner-product-buy-btn:hover {
+  background: #f8f9fa;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.petowner-product-buy-btn:active {
+  transform: translateY(0);
+}
+
+@keyframes petowner-product-fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.petowner-product-card {
+  animation: petowner-product-fadeIn 0.5s ease-out;
+}
+
+.petowner-product-card:nth-child(2) {
+  animation-delay: 0.1s;
+}
+
+.petowner-product-card:nth-child(3) {
+  animation-delay: 0.2s;
+}
+
+.petowner-product-card:nth-child(4) {
+  animation-delay: 0.3s;
+}
+
+.petowner-product-card:nth-child(5) {
+  animation-delay: 0.4s;
+}
+
+.petowner-product-card:nth-child(6) {
+  animation-delay: 0.5s;
+}
+
+@media (max-width: 768px) {
+  .petowner-products-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .petowner-product-card {
+    margin-bottom: 1rem;
+    height: auto;
+    min-height: 380px;
+  }
+}
+.petowner-video-container {
+  position: relative;
+  padding-bottom: 56.25%; 
+  height: 0;
+  overflow: hidden;
+  margin: 1rem 0;
+}
+
+.petowner-video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.petowner-video-thumbnail {
+  position: relative;
+}
+
+.petowner-play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  opacity: 0.8;
+  transition: opacity 0.3s;
+}
+
+.petowner-video-thumbnail:hover .petowner-play-button {
+  opacity: 1;
+}
+
+.petowner-phone-link {
+  color: #ff4880;
+  text-decoration: none;
+}
+
+.petowner-phone-link:hover {
+  text-decoration: underline;
+}
+
+.petowner-section-subtitle {
+  color: #6c757d;
+  margin-top: -1rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  font-style: italic;
+}
+
+.petowner-emergency-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.petowner-emergency-card {
+  display: block;
+  position: relative;
+  max-width: 100%;
+  background-color: #f2f8f9;
+  border-radius: 10px;
+  text-decoration: none;
+  z-index: 0;
+  overflow: hidden;
+  background: linear-gradient(to bottom, #e3f2f5, #c3e6ec);
+  font-family: Arial, Helvetica, sans-serif;
+  transition: transform 0.3s ease;
+  height: 280px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.petowner-emergency-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.petowner-card-title {
+  color: #262626;
+  padding: 0px 15px;
+  margin-top: 30px;
+  font-size: 1.4em;
+  line-height: normal;
+  font-weight: 700;
+  color: #393d72;
+}
+
+.petowner-small-desc {
+  font-size: 1em;
+  font-weight: 400;
+    padding:0px 15px;
+
+  line-height: 1.5em;
+  color: #452c2c;
+}
+
+.petowner-contact-details {
+  display: flex;
+    padding: 15px;
+
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.petowner-contact-detail {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.petowner-phone-link {
+  color: #ff4880;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.2s;
+}
+
+.petowner-phone-link:hover {
+  color: #e04070;
+  text-decoration: underline;
+}
+
+.petowner-go-corner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 2.5em;
+  height: 2.5em;
+  overflow: hidden;
+  top: 0;
+  right: 0;
+  background: linear-gradient(135deg, #ff4880, #fc89ac);
+  border-radius: 0 10px 0 40px;
+  transition: all 0.3s ease;
+}
+
+.petowner-go-arrow {
+  margin-top: -4px;
+  margin-right: -4px;
+  color: white;
+  font-family: courier, sans;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.petowner-emergency-card:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: -16px;
+  right: -16px;
+  background: linear-gradient(135deg, #ff4880, #f5638f);
+  height: 32px;
+  width: 32px;
+  border-radius: 32px;
+  transform: scale(1);
+  transform-origin: 50% 50%;
+  transition: transform 0.35s ease-out;
+}
+
+.petowner-emergency-card:hover:before {
+  transform: scale(35);
+}
+
+.petowner-emergency-card:hover .petowner-small-desc {
+  transition: all 0.5s ease-out;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.petowner-emergency-card:hover .petowner-card-title {
+  transition: all 0.5s ease-out;
+  color: #ffffff;
+}
+
+.petowner-emergency-card:hover .petowner-contact-detail {
+  transition: all 0.5s ease-out;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.petowner-emergency-card:hover .petowner-contact-detail svg path {
+  fill: #ffffff;
+}
+
+.petowner-emergency-card:hover .petowner-phone-link {
+  color: #ffffff;
+}
+
+.petowner-emergency-card:hover .petowner-go-corner {
+  background: linear-gradient(135deg, #ffffff, #f0f0f0);
+}
+
+.petowner-emergency-card:hover .petowner-go-arrow {
+  color: #ff4880;
+}
+
+.petowner-filter-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.petowner-search-box {
+  position: relative;
+  display: flex;
+  align-items: center;
+  background: white;
+  border: 2px solid #e9ecef;
+  border-radius: 8px;
+  padding: 0.5rem;
+  transition: all 0.3s ease;
+}
+
+.petowner-search-box:focus-within {
+  border-color: #ff4880;
+  box-shadow: 0 0 0 3px rgba(255, 72, 128, 0.1);
+}
+
+.petowner-search-icon {
+  padding: 0 0.5rem;
+  color: #393d72;
+}
+
+.petowner-search-input {
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 0.75rem 0.5rem;
+  font-size: 1rem;
+  background: transparent;
+}
+
+.petowner-search-input::placeholder {
+  color: #6c757d;
+}
+
+.petowner-search-clear {
+  background: none;
+  border: none;
+  padding: 0.25rem;
+  cursor: pointer;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s;
+}
+
+.petowner-search-clear:hover {
+  background-color: #f8f9fa;
+}
+
+.petowner-filter-group {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.petowner-filter-box {
+  position: relative;
+  display: flex;
+  align-items: center;
+  background: white;
+  border: 2px solid #e9ecef;
+  border-radius: 8px;
+  padding: 0.5rem;
+  transition: all 0.3s ease;
+  min-width: 200px;
+}
+
+.petowner-filter-box:focus-within {
+  border-color: #8fc424;
+  box-shadow: 0 0 0 3px rgba(143, 196, 36, 0.1);
+}
+
+.petowner-filter-icon {
+  padding: 0 0.5rem;
+  color: #393d72;
+}
+
+.petowner-filter-select {
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 0.75rem 0.5rem;
+  font-size: 1rem;
+  background: transparent;
+  appearance: none;
+  cursor: pointer;
+  color: #393d72;
+}
+
+.petowner-select-arrow {
+  pointer-events: none;
+  padding: 0 0.5rem;
+  color: #393d72;
+}
+
+.petowner-search-results {
+  padding: 1rem 0;
+  border-top: 1px solid #e9ecef;
+}
+
+.petowner-results-count {
+  font-size: 0.9rem;
+  color: #6c757d;
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .petowner-filter-group {
+    flex-direction: column;
+  }
+
+  .petowner-filter-box {
+    min-width: 100%;
+  }
+
+  .petowner-search-input::placeholder {
+    font-size: 0.9rem;
+  }
+}
+
+@keyframes petowner-filter-fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.petowner-search-box,
+.petowner-filter-box {
+  animation: petowner-filter-fadeIn 0.3s ease-out;
+}
+
+.petowner-filter-box:nth-child(2) {
+  animation-delay: 0.1s;
+} 
+
+.petowner-completed-badge {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.3rem 0.8rem;
+  background: #4caf50;
+  color: white;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  margin-left: 1rem;
+}
+
+.petowner-notes-section {
+  margin: 1.5rem 0;
+  padding: 1.5rem;
+  background: #f8f9fa;
+  border-radius: 8px;
+  border-left: 4px solid #393d72;
+}
+
+.petowner-notes-section h4 {
+  color: #393d72;
+  margin-bottom: 1rem;
+}
+
+.petowner-notes-display {
+  background: white;
+  padding: 1rem;
+  border-radius: 6px;
+  border: 1px solid #e9ecef;
+  margin-bottom: 1rem;
+}
+
+.petowner-notes-display p {
+  margin: 0 0 1rem 0;
+  line-height: 1.5;
+  color: #495057;
+}
+
+.petowner-edit-notes-btn {
+  padding: 0.4rem 0.8rem;
+  background: #393d72;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.petowner-edit-notes-btn:hover {
+  background: #2c3060;
+}
+
+.petowner-no-notes {
+  color: #6c757d;
+  font-style: italic;
+  margin: 0 0 1rem 0;
+}
+
+.petowner-notes-editor textarea {
+  width: 100%;
+  padding: 1rem;
+  border: 2px solid #e9ecef;
+  border-radius: 6px;
+  font-family: inherit;
+  font-size: 1rem;
+  resize: vertical;
+  min-height: 100px;
+  margin-bottom: 1rem;
+  transition: border-color 0.3s;
+}
+
+.petowner-notes-editor textarea:focus {
+  outline: none;
+  border-color: #ff4880;
+  box-shadow: 0 0 0 3px rgba(255, 72, 128, 0.1);
+}
+
+.petowner-notes-actions {
+  display: flex;
+  gap: 0.8rem;
+}
+
+.petowner-save-notes-btn {
+  padding: 0.6rem 1.2rem;
+  background: #8fc424;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.petowner-save-notes-btn:hover {
+  background: #7db020;
+  transform: translateY(-1px);
+}
+
+.petowner-cancel-notes-btn {
+  padding: 0.6rem 1.2rem;
+  background: #6c757d;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.petowner-cancel-notes-btn:hover {
+  background: #5a6268;
+  transform: translateY(-1px);
+}
+
+.petowner-tip-action-btn.petowner-completed {
+  background: #4caf50;
+}
+
+.petowner-tip-action-btn.petowner-completed:hover {
+  background: #3d8b40;
+}
+
+@keyframes petowner-notes-fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.petowner-notes-section {
+  animation: petowner-notes-fadeIn 0.3s ease-out;
+}
+
+.petowner-progress-indicator {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  background: #f8f9fa;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.petowner-progress-text {
+  font-size: 1.1rem;
+  color: #393d72;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.petowner-progress-bar {
+  width: 100%;
+  height: 12px;
+  background: #e9ecef;
+  border-radius: 6px;
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+
+.petowner-progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #8fc424, #ff4880);
+  border-radius: 6px;
+  transition: width 0.5s ease;
+}
+
+.petowner-progress-stats {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9rem;
+  color: #6c757d;
+}
+@keyframes petowner-emergency-fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.petowner-emergency-card {
+  animation: petowner-emergency-fadeIn 0.5s ease-out;
+}
+
+.petowner-emergency-card:nth-child(2) {
+  animation-delay: 0.1s;
+}
+
+.petowner-emergency-card:nth-child(3) {
+  animation-delay: 0.2s;
+}
+
+.petowner-emergency-card:nth-child(4) {
+  animation-delay: 0.3s;
+}
+
+.petowner-emergency-card:nth-child(5) {
+  animation-delay: 0.4s;
+}
+
+.petowner-emergency-card:nth-child(6) {
+  animation-delay: 0.5s;
+}
+
+@media (max-width: 768px) {
+  .petowner-emergency-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .petowner-emergency-card {
+    margin-bottom: 1rem;
+    height: auto;
+    min-height: 280px;
+  }
+}
+@media (max-width: 768px) {
+  .petowner-header {
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+  }
+
+  .petowner-hero-content h1 {
+    font-size: 2rem;
+    color: #151950;
+    font-weight: 800;
+  }
+
+  .petowner-hero-content p {
+    font-size: 1.2rem;
+    color: #151950;
+  }
+
+  .petowner-nav-list {
+    flex-wrap: wrap;
+  }
+
+  .petowner-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .petowner-video-modal-content {
+    width: 95%;
+    padding: 1rem;
+  }
+
+  .petowner-table {
+    font-size: 0.9rem;
+  }
+
+  .petowner-table th,
+  .petowner-table td {
+    padding: 0.5rem;
+  }
+
+  .petowner-ticker {
+    width: 100%;
+    text-align: center;
+  }
+}
+.petowner-widget-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-image: url('/count.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.petowner-widget-item {
+  width: 100%;
+  min-height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+}
+
+.petowner-widget-item::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+}
+
+.petowner-widget-content {
+  position: relative;
+  z-index: 2;
+  padding: 0 20px;
+}
+
+.widget-title {
+  font-size: 3rem;
+  font-weight: 800;
+  color: #ffffff;
+  margin-bottom: 10px;
+  text-shadow: 1px 1px 3px #000000;
+}
+
+.widget-text {
+  font-size: 1.2rem;
+  color: #ffd1e6;
+  font-weight: 500;
+  line-height: 1.5;
+  max-width: 600px;
+  text-shadow: 1px 1px 2px #000000;
+  margin: 0 auto 15px auto;
+}
+
+.petowner-clockgeo-container {
+  font-size: 3rem; 
+  font-weight: 700;
+  color: #ffffff;
+  text-shadow: 1px 1px 3px #000000;
+}
+
+@media (max-width: 768px) {
+  .widget-title {
+    font-size: 2rem;
+  }
+  .widget-text {
+    font-size: 1rem;
+  }
+  .petowner-clockgeo-container {
+    font-size: 2rem;
+  }
+}
+.petowner-health-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.petowner-health-card {
+  background: #fff;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+  padding: 1rem;
+}
+
+.petowner-health-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 35px rgba(0,0,0,0.15);
+}
+
+.health-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #393d72;
+  margin-bottom: 0.8rem;
+}
+
+.health-media {
+  margin-bottom: 1rem;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.health-media iframe,
+.health-media audio {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.health-text {
+  font-size: 0.9rem;
+  color: #6c757d;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.health-card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.health-source {
+  font-size: 0.8rem;
+  color: #ff4880; 
+  font-weight: 500;
+}
+
+.health-action-btn {
+  padding: 0.4rem 0.8rem;
+  background: #ff4880;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.health-action-btn:hover {
+  background: #e04070;
+  transform: translateY(-2px);
+}
+
+.petowner-training-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.8rem;
+  margin-top: 2rem;
+}
+
+.training-card {
+  background: #fff;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.training-card.active {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 35px rgba(0,0,0,0.15);
+}
+
+.training-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  background: #fff0f5;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.training-title {
+  color: #393d72;
+}
+
+.accordion-icon {
+  font-size: 1.4rem;
+  color: #ff4880;
+  transition: transform 0.3s ease;
+}
+
+.training-card.active .accordion-icon {
+  transform: rotate(180deg);
+}
+
+
+.training-card-content {
+  padding: 1rem 1.5rem 1.5rem 1.5rem;
+  border-top: 1px solid #e9ecef;
+  animation: fadeIn 0.3s ease forwards;
+}
+
+.training-card-content p {
+  font-size: 0.9rem;
+  color: #6c757d;
+  line-height: 1.5;
+  margin-bottom: 0.8rem;
+}
+
+.training-card-content audio {
+  width: 100%;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+}
+
+.training-readmore-btn {
+  padding: 0.5rem 1rem;
+  background: #ff4880;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.training-readmore-btn:hover {
+  background: #e04070;
+  transform: translateY(-2px);
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; transform: translateY(-5px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+/* Loader GIF */
+.loader-gif {
+  width: 400px !important;   /* fixed width */
+  height: 700px !important;  /* fixed height */
+  object-fit: contain;
+  animation: fadeIn 0.8s ease-in-out;
+  display: block;
+  margin: 0 auto; /* center horizontally */
+}
+
+/* Fade in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* ❌ Remove all media queries for loader */

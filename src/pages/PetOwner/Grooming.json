@@ -1,0 +1,37 @@
+{
+  "groomingVideos": [
+   {
+    "title": "Dog Trimming Basics",
+    "thumbnail": "/vedioimg1.webp",
+    "videoUrl": "19153380-hd_1920_1080_60fps.mp4",
+    "duration": "12:30",
+    "views": "15K",
+    "author": "PetCare Pro",
+    "description": "Learn the basics of dog trimming in this step-by-step video, including brushing, bathing, trimming, and keeping your dog’s coat healthy, shiny, and well-maintained."
+  }
+,
+   {
+  "title": "Cat Bathing Tips",
+  "thumbnail": "/vedioimg2.jpg",
+  "videoUrl": "6131037-uhd_3840_2160_25fps.mp4",
+  "duration": "8:45",
+  "views": "10K",
+  "author": "PetCare Pro",
+  "description": "Step-by-step tips for bathing your cat safely, including how to keep them calm and comfortable during the process."
+}
+
+
+    ,
+   {
+  "title": "Brushing Tips",
+  "thumbnail": "/vedioimg3.jpg",
+  "videoUrl": "9986244-uhd_4096_2160_25fps.mp4",
+  "duration": "6:15",
+  "views": "7.5K",
+  "author": "PetCare Pro",
+  "description": "Keep your puppy’s coat soft, shiny, and healthy with proper hair-care and brushing techniques. Learn how to brush gently, remove tangles, reduce shedding, and maintain a clean."
+}
+
+  ]
+  
+}

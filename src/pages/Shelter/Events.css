@@ -1,0 +1,233 @@
+
+.events-hero-section {
+  height: 70vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.events-hero-section::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("/banns2.avif");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+ 
+}
+
+
+.events-hero-section::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 0;
+}
+
+.events-hero-container {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
+
+.events-hero-heading {
+  font-size: 4rem;
+  font-weight: 700;
+  color: #fff;
+  text-shadow: 0 0 15px rgba(0, 0, 0, 0.8);
+}
+
+
+.events-intro {
+  margin: 60px 20px 40px;
+  text-align: center;
+}
+
+.events-main-heading {
+  font-size: 3.8rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+  margin-left: 15%;
+  color: #000;
+}
+
+.events-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+}
+
+.events-card {
+  background: linear-gradient(145deg, #ffffff, #fdf0f5);
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.4s ease;
+  cursor: pointer;
+}
+
+.events-card:hover {
+  transform: translateY(-10px) scale(1.02);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+}
+
+.events-card-image img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  transition: transform 0.4s ease, filter 0.4s ease;
+}
+
+.events-card:hover .events-card-image img {
+  transform: scale(1.05);
+  filter: brightness(0.85);
+}
+
+.events-card-content {
+  padding: 20px;
+}
+
+.events-card-title {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #2d373c;
+  margin-bottom: 10px;
+}
+
+.events-card-description {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 15px;
+  line-height: 1.5;
+}
+
+.events-card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.events-card-date {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #e91e63;
+}
+
+.events-card-button {
+  padding: 6px 18px;
+  background: #ff4880;
+  color: #fff;
+  font-weight: 600;
+  font-size: 0.9rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  text-decoration: none;
+}
+.featured-event {
+  position: relative;
+  border-radius: 20px;
+  padding: 60px 20px;
+  margin: 60px 20px;
+  text-align: center;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.featured-event::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url("/banimg1.webp");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: brightness(0.5);
+  z-index: -1;
+  border-radius: 20px;
+}
+
+.featured-event h2 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.featured-event p {
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+}
+
+.countdown-timer {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-weight: 700;
+  font-size: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.countdown-item {
+  background: rgba(243, 177, 177, 0.4);
+  border-radius: 10px;
+  padding: 15px 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+
+@media (max-width: 1200px) {
+  .events-main-heading {
+    font-size: 3rem;
+  }
+  .events-hero-heading {
+    font-size: 3.5rem;
+  }
+}
+
+@media (max-width: 992px) {
+  .events-cards-grid {
+    grid-template-columns: 1fr;
+  }
+  .events-main-heading {
+    font-size: 2.5rem;
+  }
+  .events-hero-heading {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .events-hero-heading {
+    font-size: 2.2rem;
+  }
+  .events-card-image img {
+    height: 180px;
+  }
+  .events-card-title {
+    font-size: 1.2rem;
+  }
+  .events-card-description {
+    font-size: 0.95rem;
+  }
+  .events-card-button {
+    padding: 5px 14px;
+    font-size: 0.85rem;
+  }
+  .featured-event h2 {
+    font-size: 1.8rem;
+  }
+  .countdown-timer {
+    font-size: 1.2rem;
+    gap: 15px;
+  }
+}

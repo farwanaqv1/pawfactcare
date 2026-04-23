@@ -1,0 +1,25 @@
+{
+  "logo": "FurEver Care",
+  "description": "Connecting pets, owners, and veterinarians seamlessly with AI-powered medical support.",
+  "quickLinks": [
+    { "id": 1, "label": "Home", "path": "/" },
+    { "id": 2, "label": "Pet Owner", "path": "/pet-owner" },
+    { "id": 3, "label": "Veterinarian", "path": "/veterinarian" },
+    { "id": 4, "label": "Shelter", "path": "/shelter" }
+  ],
+  "resources": [
+    { "id": 1, "label": "Blog", "path": "/blog" },
+    { "id": 2, "label": "FAQs", "path": "/faq" },
+    { "id": 3, "label": "Support", "path": "/support" }
+  ],
+  "contact": {
+    "email": "support@furevercare.com",
+    "phone": "+123-456-7890"
+  },
+  "social": [
+    { "id": 1, "label": "Facebook", "url": "https://facebook.com" },
+    { "id": 2, "label": "Twitter", "url": "https://twitter.com" },
+    { "id": 3, "label": "Instagram", "url": "https://instagram.com" }
+  ],
+  "copyright": "© 2025 FurEver Care. All rights reserved."
+}

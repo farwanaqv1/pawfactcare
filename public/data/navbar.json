@@ -1,0 +1,9 @@
+{
+  "logo": "FurEver Care",
+  "links": [
+    { "id": 1, "label": "Home", "path": "/" },
+    { "id": 2, "label": "Pet Owner", "path": "/pet-owner" },
+    { "id": 3, "label": "Veterinarian", "path": "/veterinarian" },
+    { "id": 4, "label": "Shelter", "path": "/shelter" }
+  ]
+}

@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "category": "Dog/Cat Food",
+    "name": "Premium Dog Kibble",
+    "bgImage": "/meal1.jpg",
+    "description": "High protein kibble for active dogs.",
+    "price": "$20",
+    "petType": "dog"
+  },
+  {
+    "id": 2,
+    "category": "Dog/Cat Food",
+    "name": "Grain-Free Cat Food",
+    "bgImage": "/meal2.jpg",
+    "description": "Natural ingredients for feline health.",
+    "price": "$18",
+    "petType": "cat"
+  },
+  {
+    "id": 3,
+    "category": "Dog/Cat Food",
+    "name": "Salmon Recipe Dog Food",
+    "bgImage": "/meal3.png",
+    "description": "Rich in omega fatty acids for healthy coat.",
+    "price": "$24",
+    "petType": "dog"
+  },
+  {
+    "id": 4,
+    "category": "Dog/Cat Food",
+    "name": "Kitten Formula Food",
+    "bgImage": "/meal4.jpg",
+    "description": "Specially formulated for growing kittens.",
+    "price": "$22",
+    "petType": "cat"
+  },
+  {
+    "id": 5,
+    "category": "Dog/Cat Food",
+    "name": "Weight Management Dog Food",
+    "bgImage": "/meal5.jpeg",
+    "description": "Helps maintain healthy weight with reduced calories.",
+    "price": "$26",
+    "petType": "dog"
+  },
+  {
+    "id": 6,
+    "category": "Dog/Cat Food",
+    "name": "Senior Cat Formula",
+    "bgImage": "/meal6.jpg",
+    "description": "Supports health of cats ages 7+.",
+    "price": "$19",
+    "petType": "cat"
+  },
+  {
+    "id": 7,
+    "category": "Dog/Cat Food",
+    "name": "Hypoallergenic Dog Food",
+    "bgImage": "/meal7.jpg",
+    "description": "For dogs with food sensitivities.",
+    "price": "$28",
+    "petType": "dog"
+  },
+  {
+    "id": 8,
+    "category": "Dog/Cat Food",
+    "name": "Indoor Cat Formula",
+    "bgImage": "/meal8.jpg",
+    "description": "Helps reduce hairballs and control weight.",
+    "price": "$21",
+    "petType": "cat"
+  },
+  {
+    "id": 9,
+    "category": "Dog/Cat Food",
+    "name": "Puppy Growth Formula",
+    "bgImage": "/meal9.jfif",
+    "description": "Balanced nutrition for puppies’ healthy development.",
+    "price": "$23",
+    "petType": "dog"
+  },
+  {
+    "id": 10,
+    "category": "Dog/Cat Food",
+    "name": "Hairball Control Cat Food",
+    "bgImage": "/meal10.jfif",
+    "description": "Special blend to help minimize hairballs.",
+    "price": "$20",
+    "petType": "cat"
+  },
+  {
+    "id": 11,
+    "category": "Dog/Cat Food",
+    "name": "Joint Care Dog Food",
+    "bgImage": "/meal11.jfif",
+    "description": "Supports joint health with added glucosamine.",
+    "price": "$29",
+    "petType": "dog"
+  },
+  {
+    "id": 12,
+    "category": "Dog/Cat Food",
+    "name": "Urinary Tract Cat Formula",
+    "bgImage": "/meal12.jfif",
+    "description": "Promotes urinary tract health in adult cats.",
+    "price": "$19",
+    "petType": "cat"
+  },
+  {
+    "id": 13,
+    "category": "Dog/Cat Food",
+    "name": "Digestive Care Dog Food",
+    "bgImage": "/meal13.jfif",
+    "description": "Easily digestible recipe for sensitive stomachs.",
+    "price": "$25",
+    "petType": "dog"
+  },
+  {
+    "id": 14,
+    "category": "Dog/Cat Food",
+    "name": "High Protein Cat Food",
+    "bgImage": "/meal14.jfif",
+    "description": "Protein-rich formula for active cats.",
+    "price": "$22",
+    "petType": "cat"
+  },
+  {
+    "id": 15,
+    "category": "Dog/Cat Food",
+    "name": "Dental Care Dog Food",
+    "bgImage": "/meal15.jfif",
+    "description": "Helps clean teeth and freshen breath.",
+    "price": "$27",
+    "petType": "dog"
+  },
+  {
+    "id": 16,
+    "category": "Dog/Cat Food",
+    "name": "Organic Cat Food",
+    "bgImage": "/meal16.jfif",
+    "description": "Made with certified organic ingredients.",
+    "price": "$24",
+    "petType": "cat"
+  }
+]

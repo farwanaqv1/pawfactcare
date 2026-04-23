@@ -1,0 +1,76 @@
+{
+  "hero": {
+    "title": "About FurEver Care",
+    "tagline": "Caring for pets, supporting owners, empowering vets.",
+    "image": "/bannner.jpg",
+    "buttons": [
+      { "label": "Read more", "type": "primary", "link": "#" },
+      { "label": "Watch Video", "type": "secondary", "link": "#" }
+    ],
+    "pets": [
+      { "id": 1, "image": "/pets/cat1.jpg" },
+      { "id": 2, "image": "/pets/dog1.jpg" },
+      { "id": 3, "image": "/pets/cat2.jpg" }
+    ],
+    "info": [
+      {
+        "id": 1,
+        "icon": "🚚",
+        "text": "One day delivery, Order before 5:00 PM"
+      },
+      {
+        "id": 2,
+        "icon": "📍",
+        "text": "Unit No S-05-605, MAG Properties Logistic Park, Al Quoz -2, Dubai"
+      },
+      {
+        "id": 3,
+        "icon": "📞",
+        "text": "Call us in 08:00 AM - 08:00 PM\n04 336 2201"
+      },
+      {
+        "id": 4,
+        "icon": "💬",
+        "text": "Message us, respond same day!"
+      }
+    ]
+  },
+
+  "mission": {
+    "title": "Our Mission & Values",
+    "description": "FurEver Care is dedicated to improving the lives of pets and their owners. We provide seamless support, trusted guidance, and innovative solutions for pet health, wellness, and care. Our values—compassion, trust, and innovation—guide everything we do.",
+    "image": "/pet39.jpg",
+    "button": "Learn More →",
+    "values": [
+      { "icon": "❤️", "title": "Compassion", "description": "We care deeply for pets and owners alike." },
+      { "icon": "🔒", "title": "Trust", "description": "Your pet’s wellbeing is our priority." },
+      { "icon": "💡", "title": "Innovation", "description": "Using AI and modern tools for better care." }
+    ]
+  },
+
+  "team": {
+    "title": "Meet the MLR HUSTLERS",
+    "members": [
+      { "name": "Aysha Siddiq", "role": "Frontend Developer & Designer", "image": "/images/team/aysha.jpg" },
+      { "name": "Ishrat Riaz", "role": "Backend Developer", "image": "/images/team/ishrat.jpg" },
+      { "name": "Syeda Aira", "role": "Project Manager", "image": "/images/team/aira.jpg" }
+    ]
+  },
+
+  "reviews": {
+    "title": "Over 350+ Customer reviews from our clients",
+    "customers": [
+      { "id": 1, "image": "/pet42.jpg", "name": "John Doe" },
+      { "id": 2, "image": "/pet43.jpg", "name": "Sophia Lee" },
+      { "id": 3, "image": "/pet44.jpg", "name": "David Kim" },
+      { "id": 4, "image": "/pet45.jpg", "name": "Maria Garcia" },
+      { "id": 5, "image": "/pet46.jpg", "name": "James Brown" }
+    ]
+  },
+
+  "cta": {
+    "title": "Join FurEver Care Today",
+    "buttonText": "Get Started",
+    "link": "/pet-owner"
+  }
+}

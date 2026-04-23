@@ -1,0 +1,146 @@
+[
+  {
+    "id": 21,
+    "category": "Grooming Essentials",
+    "name": "Pet Shampoo",
+    "bgImage": "/gro1.jpg",
+    "description": "Gentle shampoo for sensitive skin.",
+    "price": "$15",
+    "petType": "cat"
+  },
+  {
+    "id": 22,
+    "category": "Grooming Essentials",
+    "name": "Deshedding Tool",
+    "bgImage": "/gro2.jpg",
+    "description": "Reduces shedding by up to 90%.",
+    "price": "$22",
+    "petType": "dog"
+  },
+  {
+    "id": 23,
+    "category": "Grooming Essentials",
+    "name": "Nail Clippers",
+    "bgImage": "/gro3.jpg",
+    "description": "Professional-grade pet nail clippers.",
+    "price": "$12",
+    "petType": "dog"
+  },
+  {
+    "id": 24,
+    "category": "Grooming Essentials",
+    "name": "Detangling Spray",
+    "bgImage": "/gro4.jpg",
+    "description": "Makes brushing easier and pain-free.",
+    "price": "$9",
+    "petType": "cat"
+  },
+  {
+    "id": 25,
+    "category": "Grooming Essentials",
+    "name": "Toothbrush Kit",
+    "bgImage": "/gro5.avif",
+    "description": "Complete dental care set for pets.",
+    "price": "$13",
+    "petType": "dog"
+  },
+  {
+    "id": 26,
+    "category": "Grooming Essentials",
+    "name": "Ear Cleaner",
+    "bgImage": "/gro6.webp",
+    "description": "Gentle formula for cleaning pet ears.",
+    "price": "$8",
+    "petType": "dog"
+  },
+  {
+    "id": 27,
+    "category": "Grooming Essentials",
+    "name": "Grooming Wipes",
+    "bgImage": "/gro7.jpg",
+    "description": "Quick clean between baths.",
+    "price": "$7",
+    "petType": "cat"
+  },
+  {
+    "id": 28,
+    "category": "Grooming Essentials",
+    "name": "Slicker Brush",
+    "bgImage": "/gro8.jpg",
+    "description": "Removes mats and tangles gently.",
+    "price": "$11",
+    "petType": "dog"
+  },
+  {
+    "id": 29,
+    "category": "Grooming Essentials",
+    "name": "Flea Comb",
+    "bgImage": "/gro9.jpg",
+    "description": "Fine-toothed comb to remove fleas and dirt.",
+    "price": "$6",
+    "petType": "cat"
+  },
+  {
+    "id": 30,
+    "category": "Grooming Essentials",
+    "name": "Pet Dryer",
+    "bgImage": "/gro10.webp",
+    "description": "Portable dryer for quick pet drying after baths.",
+    "price": "$35",
+    "petType": "dog"
+  },
+  {
+    "id": 31,
+    "category": "Grooming Essentials",
+    "name": "Paw Balm",
+    "bgImage": "/gro11.webp",
+    "description": "Moisturizes and protects cracked paw pads.",
+    "price": "$10",
+    "petType": "dog"
+  },
+  {
+    "id": 32,
+    "category": "Grooming Essentials",
+    "name": "Self-Cleaning Brush",
+    "bgImage": "/gro12.avif",
+    "description": "Easy-clean brush to remove loose paw.",
+    "price": "$14",
+    "petType": "cat"
+  },
+  {
+    "id": 33,
+    "category": "Grooming Essentials",
+    "name": "Tear Stain Remover",
+    "bgImage": "/gro13.webp",
+    "description": "Removes tear stains around eyes safely.",
+    "price": "$9",
+    "petType": "cat"
+  },
+  {
+    "id": 34,
+    "category": "Grooming Essentials",
+    "name": "Deodorizing Spray",
+    "bgImage": "/gro14.webp",
+    "description": "Keeps your dog smelling fresh between baths.",
+    "price": "$12",
+    "petType": "dog"
+  },
+  {
+    "id": 35,
+    "category": "Grooming Essentials",
+    "name": "Massage Glove",
+    "bgImage": "/gro15.jpg",
+    "description": "Glove with soft bristles for grooming and massage.",
+    "price": "$11",
+    "petType": "cat"
+  },
+  {
+    "id": 36,
+    "category": "Grooming Essentials",
+    "name": "Whitening Shampoo",
+    "bgImage": "/gro16.webp",
+    "description": "Brightens and whitens coat color for dogs.",
+    "price": "$16",
+    "petType": "dog"
+  }
+]

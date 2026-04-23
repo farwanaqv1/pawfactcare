@@ -1,0 +1,191 @@
+
+.gallery.hero-section {
+  height: 70vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background-image: url("/sb1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.gallery.hero-section::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.3);
+  z-index: 0;
+}
+
+.gallery.hero-section .container {
+  position: relative;
+  z-index: 1;
+}
+
+.hero-heading {
+  font-size: 4rem;
+  font-weight: 700;
+  color: #fff;
+  text-shadow: 0 0 15px rgba(0, 0, 0, 0.8);
+  text-align: center;
+}
+
+.gallery-container {
+  padding: 60px 20px;
+  margin: auto;
+  text-align: center;
+  background: url("/bgimg1.jpg") center/cover no-repeat;
+  background-size: cover;
+  overflow: hidden; 
+  position: relative;
+}
+.gallery-title {
+  font-size: 2.8rem;
+  margin-bottom: 30px;
+  color: #393d72;
+}
+
+.gallery-filter-buttons {
+  margin-bottom: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  position: relative;
+  z-index: 2; 
+}
+
+.gallery-filter-buttons button {
+  margin: 8px;
+  padding: 12px 24px;
+  min-width: 100px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: 600;
+  background: #f67280;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.gallery-filter-buttons button:hover {
+  background: #8fc424;
+  color: #fff;
+}
+
+.gallery-filter-buttons .gallery-active {
+  background: #f67280;
+  color: #fff;
+}
+.gallery-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.gallery-grid > .pet-card {
+  flex: 1 1 250px;
+  max-width: 250px;
+  box-sizing: border-box;
+}
+
+.fade-card {
+  opacity: 0;
+  transform: translateY(30px);
+  animation: cardFadeUp 0.6s ease forwards;
+}
+
+.fade-card:nth-child(2n) {
+  transform: translateX(-30px);
+  animation: cardFadeLeft 0.6s ease forwards;
+}
+
+.fade-card:nth-child(3n) {
+  transform: translateX(30px);
+  animation: cardFadeRight 0.6s ease forwards;
+}
+
+.fade-card:nth-child(5n) {
+  transform: translateY(40px);
+  animation: cardFadeBottom 0.6s ease forwards;
+}
+
+@keyframes cardFadeUp { to { opacity: 1; transform: translateY(0); } }
+@keyframes cardFadeLeft { to { opacity: 1; transform: translateX(0); } }
+@keyframes cardFadeRight { to { opacity: 1; transform: translateX(0); } }
+@keyframes cardFadeBottom { to { opacity: 1; transform: translateY(0); } }
+
+.show-more-wrapper {
+  text-align: center;
+  margin-top: 30px;
+  position: relative;
+  z-index: 2;
+}
+
+.gallery-show-more-btn {
+  padding: 12px 24px;
+  min-width: 120px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  background: #f67280;
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.gallery-show-more-btn:hover {
+  background: #8fc424;
+  color: #fff;
+  transform: translateY(-3px);
+}
+
+@media (max-width: 1200px) {
+  .gallery-grid > .pet-card { flex: 1 1 220px; max-width: 220px; }
+}
+
+@media (max-width: 992px) {
+  .gallery-grid > .pet-card { flex: 1 1 200px; max-width: 200px; }
+  .hero-heading { font-size: 3rem; }
+}
+
+@media (max-width: 768px) {
+  .gallery-grid > .pet-card { flex: 1 1 45%; max-width: 45%; }
+  .hero-heading { font-size: 2.5rem; }
+  .gallery-title { font-size: 2.4rem; }
+}
+
+@media (max-width: 480px) {
+  .gallery-grid > .pet-card { flex: 1 1 100%; max-width: 100%; }
+  .hero-heading { font-size: 2rem; }
+  .gallery-title { font-size: 2rem; }
+  .gallery-show-more-btn { padding: 10px 16px; font-size: 14px; min-width: unset; }
+}
+/* Loader GIF */
+.loader-gif {
+  width: 400px !important;   /* fixed width */
+  height: 700px !important;  /* fixed height */
+  object-fit: contain;
+  animation: fadeIn 0.8s ease-in-out;
+  display: block;
+  margin: 0 auto; /* center horizontally */
+}
+
+/* Fade in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* ❌ Remove all media queries for loader */

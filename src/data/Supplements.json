@@ -1,0 +1,146 @@
+[
+  {
+    "id": 31,
+    "category": "Pet Supplements & Apparel",
+    "name": "Joint Health Supplement",
+    "bgImage": "/sup1.jpg",
+    "description": "Supports joint health for active dogs.",
+    "price": "$35",
+    "petType": "dog"
+  },
+  {
+    "id": 32,
+    "category": "Pet Supplements & Apparel",
+    "name": "Omega-3 Fish Oil",
+    "bgImage": "/sup2.jpg",
+    "description": "Promotes healthy skin and coat.",
+    "price": "$28",
+    "petType": "dog"
+  },
+  {
+    "id": 33,
+    "category": "Pet Supplements & Apparel",
+    "name": "Urinary Health Support",
+    "bgImage": "/sup3.webp",
+    "description": "Supports urinary tract health in cats.",
+    "price": "$45",
+    "petType": "cat"
+  },
+  {
+    "id": 34,
+    "category": "Pet Supplements & Apparel",
+    "name": "Multivitamin Chews",
+    "bgImage": "/sup4.avif",
+    "description": "Complete nutrition for overall health.",
+    "price": "$25",
+    "petType": "dog"
+  },
+  {
+    "id": 35,
+    "category": "Pet Supplements & Apparel",
+    "name": "Hairball Control",
+    "bgImage": "/sup5.jpg",
+    "description": "Helps prevent hairballs in cats.",
+    "price": "$32",
+    "petType": "cat"
+  },
+  {
+    "id": 36,
+    "category": "Pet Supplements & Apparel",
+    "name": "Calming Supplements",
+    "bgImage": "/sup6.webp",
+    "description": "Reduces anxiety in nervous pets.",
+    "price": "$22",
+    "petType": "cat"
+  },
+  {
+    "id": 37,
+    "category": "Pet Supplements & Apparel",
+    "name": "Probiotics for Digestion",
+    "bgImage": "/sup7.avif",
+    "description": "Supports healthy digestion.",
+    "price": "$29",
+    "petType": "cat"
+  },
+  {
+    "id": 38,
+    "category": "Pet Supplements & Apparel",
+    "name": "Dental Health Treats",
+    "bgImage": "/sup8.webp",
+    "description": "Promotes dental hygiene.",
+    "price": "$8",
+    "petType": "dog"
+  },
+  {
+    "id": 39,
+    "category": "Pet Supplements & Apparel",
+    "name": "Skin & Coat Powder",
+    "bgImage": "/sup9.jfif",
+    "description": "Boosts shine and reduces itching.",
+    "price": "$27",
+    "petType": "dog"
+  },
+  {
+    "id": 40,
+    "category": "Pet Supplements & Apparel",
+    "name": "Immune Support Tablets",
+    "bgImage": "/sup10.jfif",
+    "description": "Strengthens immunity in pets.",
+    "price": "$30",
+    "petType": "cat"
+  },
+  {
+    "id": 41,
+    "category": "Pet Supplements & Apparel",
+    "name": "Hip & Joint Chews",
+    "bgImage": "/sup11.jfif",
+    "description": "Chewy treats for bone and joint care.",
+    "price": "$34",
+    "petType": "dog"
+  },
+  {
+    "id": 42,
+    "category": "Pet Supplements & Apparel",
+    "name": "Taurine Supplement",
+    "bgImage": "/sup12.jfif",
+    "description": "Essential amino acid for cat heart health.",
+    "price": "$18",
+    "petType": "cat"
+  },
+  {
+    "id": 43,
+    "category": "Pet Supplements & Apparel",
+    "name": "Weight Management Bites",
+    "bgImage": "/sup13.jfif",
+    "description": "Helps control weight and supports metabolism.",
+    "price": "$26",
+    "petType": "dog"
+  },
+  {
+    "id": 44,
+    "category": "Pet Supplements & Apparel",
+    "name": "Vitamin D Drops",
+    "bgImage": "/sup14.jfif",
+    "description": "Supports strong bones and teeth.",
+    "price": "$20",
+    "petType": "cat"
+  },
+  {
+    "id": 45,
+    "category": "Pet Supplements & Apparel",
+    "name": "Digestive Enzymes",
+    "bgImage": "/sup15.jfif",
+    "description": "Improves nutrient absorption and gut health.",
+    "price": "$33",
+    "petType": "dog"
+  },
+  {
+    "id": 46,
+    "category": "Pet Supplements & Apparel",
+    "name": "Senior Pet Multivitamin",
+    "bgImage": "/sup16.jfif",
+    "description": "Special formula for aging pets.",
+    "price": "$40",
+    "petType": "dog"
+  }
+]

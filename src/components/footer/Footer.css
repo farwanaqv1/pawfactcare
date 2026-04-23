@@ -1,0 +1,132 @@
+.footer {
+  position: relative;
+  background-image: url('/footerimg.jpg') !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  height: 900px;
+  font-size: larger;
+  width: 100%;
+  
+}
+.footer .row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 40px; /* push content a little down */
+  gap: 95px; /* space between the 3 columns */
+}
+/* Dark overlay */
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.65);
+  z-index: 0;
+}
+
+.footer .container {
+  position: relative;
+  z-index: 1;
+}
+
+/* Row layout */
+.footer .row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 40px;
+  gap: 95px;
+  flex-wrap: wrap;
+}
+
+
+.footer a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s ease;
+  font-weight: bold;
+}
+.footer a:hover {
+  color: #ff4880 !important;
+}
+
+.footer-links li {
+  margin-top: 20px;
+}
+
+.text-footer,
+.pink-text {
+  color: #ffffff !important;
+}
+
+
+.footer-watermark {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 230px;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.1);
+ 
+  pointer-events: none;
+  white-space: nowrap;
+}.footer-logo {
+  width: 300px; /* Apne logo ki size adjust karein */
+  height: auto;
+}
+
+.footer-social a {
+  color: #fff;
+  font-size: 2.5rem;
+  transition: color 0.3s ease;
+}
+
+.footer-social a:hover {
+  color: #ff4880;
+}
+
+
+
+@media (max-width: 992px) {
+  .footer {
+    
+    height: 1200px;
+    font-size: medium;
+    padding: 20px 0;
+  }
+  .footer-watermark {
+    font-size: 120px;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer {
+    text-align: center;
+        min-height: auto;
+    font-size: medium;
+    padding: 20px 0;
+
+  }
+  .footer-watermark {
+    font-size: 80px;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .footer {
+    font-size: small;
+min-height: auto;
+    font-size: medium;
+    padding: 20px 0;  }
+  .footer-watermark {
+    font-size: 50px;
+    
+  }
+}
