@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { FaClinicMedical, FaUserMd, FaArrowLeft } from "react-icons/fa";
-import "./VetForm.css";
+import "./Vetform.css";
 
 const VetForm = () => {
   const navigate = useNavigate();
